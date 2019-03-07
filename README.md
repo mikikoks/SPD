@@ -22,9 +22,9 @@ python3 pr1.py -h
 ## example how c_max works
 
     -------------
-    cmax example:
+    cmax example: 
     -------------
-    
+    on data/data1.txt
     p = [1, 2, 3, 4, 5]
 
     p=1:
