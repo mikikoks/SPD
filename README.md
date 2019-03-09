@@ -2,7 +2,7 @@
 
 first program
 
-### Usage
+### usage - pr1
 
 ```
 python3 pr1.py [-f FILENAME]
@@ -17,6 +17,23 @@ python3 pr1.py -f data/data0.txt
 to get help:
 ```
 python3 pr1.py -h
+```
+
+## usage - DataCreator - tool for generating test instances
+
+```
+python3 data_creator.py -f FILENAME -m MACHINES -j JOBS
+```
+
+example:
+
+```
+python3 data_creator.py -f data/data5.txt -m 4 -j 6
+```
+
+to get help:
+```
+python3 data_creator.py -h
 ```
 
 ## example how c_max works
