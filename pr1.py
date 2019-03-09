@@ -16,7 +16,7 @@ def main():
         parser.print_help()
         sys.exit(1)
     data_parser = DataParser(args.filename)
-    jobs, machines, tasks = data_parser.get_instance_parameters(data_parser.filename)
+    jobs, machines, tasks = data_parser.get_instance_parameters()
     instance = Instance('Roxanne', machines, jobs, tasks)
     instance.print_info()
     instance.generate_best_cmax()

@@ -6,11 +6,11 @@ class DataParser():
     def __init__(self, filename):
         self.filename = filename
 
-    def get_instance_parameters(self, filename):
-        if not os.path.isfile(filename):
+    def get_instance_parameters(self):
+        if not os.path.isfile(self.filename):
             print("ERROR: File not found")
             sys.exit(1)
-        with open(filename) as f:
+        with open(self.filename) as f:
             print("INFO: Started parsing file {}".format(self.filename))
             first_line = f.readline()
             jobs, machines = first_line.rstrip().split(" ")
