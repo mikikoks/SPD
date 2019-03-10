@@ -22,7 +22,6 @@ def main():
     instance = Instance('Roxanne', machines, jobs, tasks)
     instance.print_info()
     instance.generate_best_cmax()
-    print(tasks)
     instance.johnsons_algorithm()
 
 

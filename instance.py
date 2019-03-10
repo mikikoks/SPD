@@ -32,12 +32,23 @@ class Instance():
     def generate_best_cmax(self):
         queue = self.permutation_list()
         min_makespan = self.c_max(queue)
+        makespans = []
+        queues = []
         for option in itertools.permutations(queue):
-            print(">>> For " + str(option) + " c-max value is: " + str(self.c_max(option)))
-            if self.c_max(option) < min_makespan:
+            print(">>> [C-MAX] For " + str(option) + " c-max value is: " + str(self.c_max(option)))
+            if self.c_max(option) == min_makespan:
+                queues.append(list(option))
+                makespans.append(self.c_max(option))
+            elif self.c_max(option) < min_makespan:
                 queue = list(option)
                 min_makespan = self.c_max(option)
-        print("{} option generates minimal c-max value: {}".format(queue, min_makespan))
+
+        indexes = [i for i, x in enumerate(makespans) if x == min_makespan]
+
+        print("INFO: C-MAX: {} option generates minimal c-max value: {}".format(queue, min_makespan))
+        if indexes:
+            for i in indexes:
+                print("INFO: C-MAX: {} option generates minimal c-max value: {}".format(queues[i], makespans[i]))
 
     def johnsons_algorithm(self):
         virtual_tasks = [[] for  i in range(len(self.tasks))]
@@ -62,4 +73,6 @@ class Instance():
                 virtual_tasks.remove(p2)
 
         optimal_order = optimal_begining + optimal_ending
-        print("Johnson's algorithm optimal order: {}".format(optimal_order))
+        makespan = self.c_max(optimal_order)
+        print("INFO: JOHNSON: Optimal order for Johnson's algorithm is: {}".format(optimal_order))
+        print("INFO: JOHNSON: {} generates c-max value: {}".format(optimal_order, makespan))
