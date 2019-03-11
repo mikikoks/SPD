@@ -1,0 +1,1 @@
+{"filename": "data/data3.txt", "cmax_queues": [[1, 3, 2, 4, 5], [1, 3, 4, 2, 5]], "cmax_makespans": [38, 38], "johnson_queue": [1, 3, 5, 2, 4], "johnson_cmax": 42}

@@ -1,5 +1,6 @@
 import itertools
 from operator import itemgetter
+import json
 
 class Instance():
 
@@ -46,8 +47,12 @@ class Instance():
         indexes = [i for i, x in enumerate(makespans) if x == min_makespan]
 
         print("INFO: C-MAX: {} option generates minimal c-max value: {}".format(queue, min_makespan))
+        self.cmax_queue = [queue]
+        self.cmax_makespan = [min_makespan]
         if indexes:
             for i in indexes:
+                self.cmax_queue.append(queues[i])
+                self.cmax_makespan.append(makespans[i])
                 print("INFO: C-MAX: {} option generates minimal c-max value: {}".format(queues[i], makespans[i]))
 
     def johnsons_algorithm(self):
@@ -76,3 +81,18 @@ class Instance():
         makespan = self.c_max(optimal_order)
         print("INFO: JOHNSON: Optimal order for Johnson's algorithm is: {}".format(optimal_order))
         print("INFO: JOHNSON: {} generates c-max value: {}".format(optimal_order, makespan))
+        self.johnson_queue = optimal_order
+        self.johnson_cmax = makespan
+
+    def save_results(self, filename, json_to_write):
+        data = {}
+        data['filename'] = filename
+        data['cmax_queues'] = self.cmax_queue
+        data['cmax_makespans'] = self.cmax_makespan
+        data['johnson_queue'] = self.johnson_queue
+        data['johnson_cmax'] = self.johnson_cmax
+        json_data = json.dumps(data)
+        with open (json_to_write, 'w+') as file:
+            file.write(json_data)
+            
+
