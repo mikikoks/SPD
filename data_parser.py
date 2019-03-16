@@ -18,5 +18,12 @@ class DataParser():
             for line in f:
                 n = list(int(s) for s in line.split() if s.isdigit)
                 list_of_tasks.append(n)
-            tasks = list_of_tasks
-            return jobs, machines, tasks
+        tasks = list_of_tasks
+        order = []
+        dict = {}
+        for i in range(int(jobs)):
+            dict[str(i)] = tasks[i]
+        for key,value in sorted(dict.items(),key=lambda i:sum(i[1]),reverse=True):
+            order.append(int(key)+1)
+        return jobs, machines, tasks, order
+
