@@ -5,7 +5,7 @@ first program
 ### usage - pr1
 
 ```
-python3 pr1.py [-h] [-f FILENAME] [-a ALGORITHM] [-s JSON]
+python3 pr1.py [-h] -f FILENAME -a ALGORITHM [-s JSON]
 ```
 
 example:
