@@ -26,7 +26,7 @@ def main():
     jobs, machines, tasks, neh_prio = data_parser.get_instance_parameters()
     instance = Instance('Roxanne', machines, jobs, tasks, neh_prio)
     instance.print_info()
-    jsonfile = "data/results/" + args.filename.split('/')[1].split('.')[0] + "_" + args.algorithm + "_" + args.json
+    jsonfile = "data/results/" + args.filename.split('/')[1].split('.txt')[0] + "_" + args.algorithm + "_" + args.json
     if args.algorithm == 'bruteforce':
         instance.generate_best_cmax()
         instance.save_results(args.filename, args.algorithm, jsonfile)
