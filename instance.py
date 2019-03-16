@@ -55,7 +55,6 @@ class Instance():
                 self.cmax_queue.append(queues[i])
                 self.cmax_makespan.append(makespans[i])
                 print("INFO: C-MAX: {} option generates minimal c-max value: {}".format(queues[i], makespans[i]))
-        return self.cmax_queue[0], self.cmax_makespan[0]
 
     def johnsons_algorithm(self):
         virtual_tasks = [[] for  i in range(len(self.tasks))]
@@ -79,12 +78,10 @@ class Instance():
                 optimal_ending.insert(0, list_of_jobs.pop(index_of_p2))
                 virtual_tasks.remove(p2)
 
-        optimal_order = optimal_begining + optimal_ending
-        makespan = self.c_max(optimal_order)
-        print("INFO: JOHNSON: Optimal order for Johnson's algorithm is: {}".format(optimal_order))
-        print("INFO: JOHNSON: {} generates c-max value: {}".format(optimal_order, makespan))
-        self.johnson_queue = optimal_order
-        self.johnson_cmax = makespan
+        self.johnson_queue = optimal_begining + optimal_ending
+        self.johnson_cmax = self.c_max(self.johnson_queue)
+        print("INFO: JOHNSON: Optimal order for Johnson's algorithm is: {}".format(self.johnson_queue))
+        print("INFO: JOHNSON: {} generates c-max value: {}".format(self.johnson_queue, self.johnson_cmax))
 
     def neh_insertion(self, queue):
         jobs = len(queue)
@@ -105,12 +102,10 @@ class Instance():
         for i in range(2, int(self.jobs)+1):
             order, makespan = self.neh_insertion(self.neh_prio[:i])
             self.neh_prio[:i] = order
-        optimal_order = order
-        min_makespan = makespan
-        print("INFO: NEH: Optimal order for Neh's algorithm is: {}".format(optimal_order))
-        print("INFO: NEH: {} generates c-max value: {}".format(optimal_order, min_makespan))
-        self.neh_queue = optimal_order
-        self.neh_cmax = min_makespan
+        self.neh_queue = order
+        self.neh_cmax = makespan
+        print("INFO: NEH: Optimal order for Neh's algorithm is: {}".format(self.neh_queue))
+        print("INFO: NEH: {} generates c-max value: {}".format(self.neh_queue, self.neh_cmax))
 
 
     def save_results(self, filename, json_to_write):
