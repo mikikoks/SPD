@@ -108,15 +108,18 @@ class Instance():
         print("INFO: NEH: {} generates c-max value: {}".format(self.neh_queue, self.neh_cmax))
 
 
-    def save_results(self, filename, json_to_write):
+    def save_results(self, filename, algorithm, json_to_write):
         data = {}
         data['filename'] = filename
-        data['cmax_queues'] = self.cmax_queue
-        data['cmax_makespans'] = self.cmax_makespan
-        data['johnson_queue'] = self.johnson_queue
-        data['johnson_cmax'] = self.johnson_cmax
-        data['neh_queue'] = self.neh_queue
-        data['neh_cmax'] = self.neh_cmax
+        if algorithm == 'bruteforce':
+            data['cmax_queues'] = self.cmax_queue
+            data['cmax_makespans'] = self.cmax_makespan
+        elif algorithm == 'johnson':
+            data['johnson_queue'] = self.johnson_queue
+            data['johnson_cmax'] = self.johnson_cmax
+        elif algorithm == 'neh':
+            data['neh_queue'] = self.neh_queue
+            data['neh_cmax'] = self.neh_cmax
         json_data = json.dumps(data)
         with open (json_to_write, 'w+') as file:
             file.write(json_data)
