@@ -5,13 +5,13 @@ first program
 ### usage - pr1
 
 ```
-python3 pr1.py [-f FILENAME]
+python3 pr1.py [-h] [-f FILENAME] [-a ALGORITHM] [-s JSON]
 ```
 
 example:
 
 ```
-python3 pr1.py -f data/data0.txt
+python3 pr1.py -f data/data0.txt -a neh
 ```
 
 to get help:
