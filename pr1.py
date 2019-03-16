@@ -21,11 +21,12 @@ def main():
         parser.print_help()
         sys.exit(1)
     data_parser = DataParser(args.filename)
-    jobs, machines, tasks = data_parser.get_instance_parameters()
-    instance = Instance('Roxanne', machines, jobs, tasks)
+    jobs, machines, tasks, neh_prio = data_parser.get_instance_parameters()
+    instance = Instance('Roxanne', machines, jobs, tasks, neh_prio)
     instance.print_info()
     instance.generate_best_cmax()
     instance.johnsons_algorithm()
+    instance.neh()
     jsonfile = "data/results/" + args.filename.split('/')[1].split('.')[0] + "_" + args.json
     instance.save_results(args.filename, jsonfile)
 

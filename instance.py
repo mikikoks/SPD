@@ -4,11 +4,12 @@ import json
 
 class Instance():
 
-    def __init__(self, name, machines, jobs, tasks):
+    def __init__(self, name, machines, jobs, tasks, neh_prio):
         self.name = name
         self.machines = machines
         self.jobs = jobs
         self.tasks = tasks
+        self.neh_prio = neh_prio
     
     def print_info(self):
         print("INFO: Instance {} consists of {} machines and {} jobs."
@@ -54,6 +55,7 @@ class Instance():
                 self.cmax_queue.append(queues[i])
                 self.cmax_makespan.append(makespans[i])
                 print("INFO: C-MAX: {} option generates minimal c-max value: {}".format(queues[i], makespans[i]))
+        return self.cmax_queue[0], self.cmax_makespan[0]
 
     def johnsons_algorithm(self):
         virtual_tasks = [[] for  i in range(len(self.tasks))]
@@ -84,6 +86,33 @@ class Instance():
         self.johnson_queue = optimal_order
         self.johnson_cmax = makespan
 
+    def neh_insertion(self, queue):
+        jobs = len(queue)
+        optimal_order = queue
+        makespan = self.c_max(optimal_order)
+        for i in range(jobs):
+            order = queue[:jobs-1]
+            order.insert(i, queue[jobs-1])
+            tmp_makespan = self.c_max(order)
+            print(">>> [NEH] For " + str(order) + " c-max value is: " + str(self.c_max(order)))
+            if tmp_makespan < makespan:
+                makespan = tmp_makespan
+                optimal_order = order
+        return optimal_order, makespan
+
+
+    def neh(self):
+        for i in range(2, int(self.jobs)+1):
+            order, makespan = self.neh_insertion(self.neh_prio[:i])
+            self.neh_prio[:i] = order
+        optimal_order = order
+        min_makespan = makespan
+        print("INFO: NEH: Optimal order for Neh's algorithm is: {}".format(optimal_order))
+        print("INFO: NEH: {} generates c-max value: {}".format(optimal_order, min_makespan))
+        self.neh_queue = optimal_order
+        self.neh_cmax = min_makespan
+
+
     def save_results(self, filename, json_to_write):
         data = {}
         data['filename'] = filename
@@ -91,6 +120,8 @@ class Instance():
         data['cmax_makespans'] = self.cmax_makespan
         data['johnson_queue'] = self.johnson_queue
         data['johnson_cmax'] = self.johnson_cmax
+        data['neh_queue'] = self.neh_queue
+        data['neh_cmax'] = self.neh_cmax
         json_data = json.dumps(data)
         with open (json_to_write, 'w+') as file:
             file.write(json_data)
