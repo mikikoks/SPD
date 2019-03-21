@@ -37,7 +37,7 @@ class Instance():
         makespans = []
         queues = []
         for option in itertools.permutations(queue):
-            print(">>> [C-MAX] For " + str(option) + " c-max value is: " + str(self.c_max(option)))
+            #print(">>> [C-MAX] For " + str(option) + " c-max value is: " + str(self.c_max(option)))
             if self.c_max(option) == min_makespan:
                 queues.append(list(option))
                 makespans.append(self.c_max(option))
@@ -91,7 +91,7 @@ class Instance():
             order = queue[:jobs-1]
             order.insert(i, queue[jobs-1])
             tmp_makespan = self.c_max(order)
-            print(">>> [NEH] For " + str(order) + " c-max value is: " + str(self.c_max(order)))
+            #print(">>> [NEH] For " + str(order) + " c-max value is: " + str(self.c_max(order)))
             if tmp_makespan < makespan:
                 makespan = tmp_makespan
                 optimal_order = order

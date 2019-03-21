@@ -16,7 +16,7 @@ class DataCreator():
         content = re.sub("\[|,|\]", "", content).strip()
         with open(self.filename, "w+") as file:
             file.write(content)
-
+'''
 parser = argparse.ArgumentParser()
 parser.add_argument("-f", "--filename", type=str, required=True,
                      help="name of file to be created")
@@ -32,3 +32,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+'''
