@@ -36,7 +36,7 @@ def main():
         orderik = instance.neh_prio[:]
         some_result = instance.simulated_annealing(50, orderik, 1)
         print("wynik mojego wyzarzania to {} z c_max: {}".format(some_result, instance.c_max(some_result)))
-        instance.save_results(args.filename, args.algorithm, jsonfile)
+        #instance.save_results(args.filename, args.algorithm, jsonfile)
     elif args.algorithm == 'neh':
         instance.neh()
         instance.save_results(args.filename, args.algorithm, jsonfile)

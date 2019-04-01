@@ -120,9 +120,14 @@ class Instance():
         index1, index2 = queue.index(num1), queue.index(num2)
         queue[index2], queue[index1] = queue[index1], queue[index2]
 
+    def insert (self, queue):
+        index = random.randint(0, int(self.jobs)-1)
+        item = queue.pop(index)
+        index = random.randint(0, int(self.jobs)-2)
+        queue.insert(index, item)
 
-    def simulated_annealing(self, temperature, order, iteration):
-        if iteration < self.max_iterations:
+    def simulated_annealing(self, temperature, order):
+        while temperature > 0.000001:
             temp_order = order[:]
             self.swap(temp_order)
             temp_order_cmax = self.c_max(temp_order)
@@ -133,16 +138,9 @@ class Instance():
                 probability_of_acceptation = 1
             #temperature = ( temperature * iteration ) / self.max_iterations
             temperature *= 0.8
-            iteration += 1
             if probability_of_acceptation >= random.random():
-                return self.simulated_annealing(temperature, temp_order, iteration)
-            else:
-                return self.simulated_annealing(temperature, order, iteration)
-        else:
-            return order
-
-
-
+                order = temp_order[:]
+        return order
 
 
     def save_results(self, filename, algorithm, json_to_write):
