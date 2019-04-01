@@ -24,14 +24,18 @@ def main():
         sys.exit(1)
     data_parser = DataParser(args.filename)
     jobs, machines, tasks, neh_prio = data_parser.get_instance_parameters()
-    instance = Instance('Roxanne', machines, jobs, tasks, neh_prio)
+    instance = Instance('Roxanne', machines, jobs, tasks, neh_prio, 120)
     instance.print_info()
+    print(neh_prio)
     jsonfile = "data/results/" + args.filename.split('/')[1].split('.txt')[0] + "_" + args.algorithm + "_" + args.json
     if args.algorithm == 'bruteforce':
         instance.generate_best_cmax()
         instance.save_results(args.filename, args.algorithm, jsonfile)
     elif args.algorithm == 'johnson':
         instance.johnsons_algorithm()
+        orderik = instance.neh_prio[:]
+        some_result = instance.simulated_annealing(50, orderik, 1)
+        print("wynik mojego wyzarzania to {} z c_max: {}".format(some_result, instance.c_max(some_result)))
         instance.save_results(args.filename, args.algorithm, jsonfile)
     elif args.algorithm == 'neh':
         instance.neh()

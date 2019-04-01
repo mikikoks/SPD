@@ -1,15 +1,18 @@
 import itertools
 from operator import itemgetter
 import json
+import random
+import math
 
 class Instance():
 
-    def __init__(self, name, machines, jobs, tasks, neh_prio):
+    def __init__(self, name, machines, jobs, tasks, neh_prio, max_iterations):
         self.name = name
         self.machines = machines
         self.jobs = jobs
         self.tasks = tasks
         self.neh_prio = neh_prio
+        self.max_iterations = max_iterations
     
     def print_info(self):
         print("INFO: Instance {} consists of {} machines and {} jobs."
@@ -106,6 +109,40 @@ class Instance():
         self.neh_cmax = makespan
         print("INFO: NEH: Optimal order for Neh's algorithm is: {}".format(self.neh_queue))
         print("INFO: NEH: {} generates c-max value: {}".format(self.neh_queue, self.neh_cmax))
+
+
+    def swap(self, queue):
+        num1 = 0
+        num2 = 0
+        while num1 == num2:
+            num1 = random.randint(1,int(self.jobs))
+            num2 = random.randint(1, int(self.jobs))
+        index1, index2 = queue.index(num1), queue.index(num2)
+        queue[index2], queue[index1] = queue[index1], queue[index2]
+
+
+    def simulated_annealing(self, temperature, order, iteration):
+        if iteration < self.max_iterations:
+            temp_order = order[:]
+            self.swap(temp_order)
+            temp_order_cmax = self.c_max(temp_order)
+            order_cmax = self.c_max(order)
+            if temp_order_cmax >= order_cmax:
+                probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
+            else:
+                probability_of_acceptation = 1
+            #temperature = ( temperature * iteration ) / self.max_iterations
+            temperature *= 0.8
+            iteration += 1
+            if probability_of_acceptation >= random.random():
+                return self.simulated_annealing(temperature, temp_order, iteration)
+            else:
+                return self.simulated_annealing(temperature, order, iteration)
+        else:
+            return order
+
+
+
 
 
     def save_results(self, filename, algorithm, json_to_write):
