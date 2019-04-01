@@ -6,13 +6,12 @@ import math
 
 class Instance():
 
-    def __init__(self, name, machines, jobs, tasks, neh_prio, max_iterations):
+    def __init__(self, name, machines, jobs, tasks, neh_prio):
         self.name = name
         self.machines = machines
         self.jobs = jobs
         self.tasks = tasks
         self.neh_prio = neh_prio
-        self.max_iterations = max_iterations
     
     def print_info(self):
         print("INFO: Instance {} consists of {} machines and {} jobs."
@@ -127,18 +126,21 @@ class Instance():
         queue.insert(index, item)
 
     def simulated_annealing(self, temperature, order):
-        while temperature > 0.000001:
+        while temperature > 0.000000001:
             temp_order = order[:]
-            self.swap(temp_order)
+            #self.swap(temp_order)
+            self.insert(temp_order)
             temp_order_cmax = self.c_max(temp_order)
             order_cmax = self.c_max(order)
             if temp_order_cmax >= order_cmax:
                 probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
             else:
                 probability_of_acceptation = 1
-            #temperature = ( temperature * iteration ) / self.max_iterations
-            temperature *= 0.8
-            if probability_of_acceptation >= random.random():
+            temperature *= 0.99
+            p_rand = random.random()
+            while p_rand == probability_of_acceptation:
+                p_rand = random.random()
+            if probability_of_acceptation > p_rand:
                 order = temp_order[:]
         return order
 
