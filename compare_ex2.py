@@ -4,13 +4,13 @@ from data_creator import DataCreator
 import time
 import json
 
-data_creator = DataCreator('compare/compare0.txt', 2, 2)
-data_parser = DataParser('compare/compare0.txt')
+data_creator = DataCreator('compare_ex2/compare0.txt', 2, 2)
+data_parser = DataParser('compare_ex2/compare0.txt')
 
 def main():
     for i in range(3,11):
-        result = 'compare/results/result_2ma_' + str(i)
-        data_creator.filename = 'compare/data/compare_2ma_' + str(i) + '.txt'
+        result = 'compare_ex2/results/result_2ma_' + str(i)
+        data_creator.filename = 'compare_ex2/data/compare_2ma_' + str(i) + '.txt'
         data_creator.jobs = i
         data_creator.run()
         data_parser.filename = data_creator.filename
@@ -39,7 +39,7 @@ def main():
         times['johnson_time'] = str(johnson_time)
         times['neh_time'] = str(neh_time)
         times_json = json.dumps(times)
-        filename = 'compare/results/result_2ma_' + str(i) + '_times.json'
+        filename = 'compare_ex2/results/result_2ma_' + str(i) + '_times.json'
         with open (filename, 'w+') as f:
             f.write(times_json)
 
