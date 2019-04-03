@@ -39,7 +39,6 @@ class Instance():
         makespans = []
         queues = []
         for option in itertools.permutations(queue):
-            #print(">>> [C-MAX] For " + str(option) + " c-max value is: " + str(self.c_max(option)))
             if self.c_max(option) == min_makespan:
                 queues.append(list(option))
                 makespans.append(self.c_max(option))
@@ -93,7 +92,6 @@ class Instance():
             order = queue[:jobs-1]
             order.insert(i, queue[jobs-1])
             tmp_makespan = self.c_max(order)
-            #print(">>> [NEH] For " + str(order) + " c-max value is: " + str(self.c_max(order)))
             if tmp_makespan < makespan:
                 makespan = tmp_makespan
                 optimal_order = order
@@ -108,7 +106,7 @@ class Instance():
         self.neh_cmax = makespan
         print("INFO: NEH: Optimal order for Neh's algorithm is: {}".format(self.neh_queue))
         print("INFO: NEH: {} generates c-max value: {}".format(self.neh_queue, self.neh_cmax))
-
+        return order
 
     def swap(self, queue):
         num1 = 0
@@ -125,24 +123,27 @@ class Instance():
         index = random.randint(0, int(self.jobs)-2)
         queue.insert(index, item)
 
-    def simulated_annealing(self, temperature, order):
-        while temperature > 0.000000001:
+    def simulated_annealing(self, temperature, order, min_value, cooling):
+        while temperature > min_value:
             temp_order = order[:]
-            #self.swap(temp_order)
-            self.insert(temp_order)
+            self.swap(temp_order)
+            #self.insert(temp_order)
             temp_order_cmax = self.c_max(temp_order)
             order_cmax = self.c_max(order)
             if temp_order_cmax >= order_cmax:
                 probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
             else:
                 probability_of_acceptation = 1
-            temperature *= 0.99
+            temperature *= cooling
             p_rand = random.random()
             while p_rand == probability_of_acceptation:
                 p_rand = random.random()
             if probability_of_acceptation > p_rand:
                 order = temp_order[:]
-        return order
+        self.simann_queue = order
+        self.simann_makespan = self.c_max(order)
+        print("INFO: SIMULATED ANNEALING: Optimal order for Neh's algorithm is: {}".format(self.simann_queue))
+        print("INFO: SIMULATED ANNEALING: c-max value for optimal order: {}".format(self.simann_makespan))
 
 
     def save_results(self, filename, algorithm, json_to_write):
@@ -160,5 +161,3 @@ class Instance():
         json_data = json.dumps(data)
         with open (json_to_write, 'w+') as file:
             file.write(json_data)
-            
-
