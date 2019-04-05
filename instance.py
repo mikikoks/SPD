@@ -87,7 +87,7 @@ class Instance():
     def neh_insertion(self, queue):
         jobs = len(queue)
         optimal_order = queue
-        makespan = self.c_max(optimal_order)
+        makespan = 10000000
         for i in range(jobs):
             order = queue[:jobs-1]
             order.insert(i, queue[jobs-1])
@@ -105,8 +105,8 @@ class Instance():
         self.neh_queue = order
         self.neh_cmax = makespan
         print("INFO: NEH: Optimal order for Neh's algorithm is: {}".format(self.neh_queue))
-        print("INFO: NEH: {} generates c-max value: {}".format(self.neh_queue, self.neh_cmax))
-        return order
+        print("INFO: c-max value for optimal order: {}".format(self.neh_cmax))
+        return order, makespan
 
     def swap(self, queue):
         num1 = 0
@@ -123,28 +123,185 @@ class Instance():
         index = random.randint(0, int(self.jobs)-2)
         queue.insert(index, item)
 
-    def simulated_annealing(self, temperature, order, min_value, cooling):
-        while temperature > min_value:
-            temp_order = order[:]
-            self.swap(temp_order)
-            #self.insert(temp_order)
-            temp_order_cmax = self.c_max(temp_order)
-            order_cmax = self.c_max(order)
-            if temp_order_cmax >= order_cmax:
-                probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
-            else:
-                probability_of_acceptation = 1
-            temperature *= cooling
-            p_rand = random.random()
-            while p_rand == probability_of_acceptation:
+    def simulated_annealing(self, temperature, order, min_value, cooling, method):
+        if method == 'swap':
+            while temperature > min_value:
+                temp_order = order[:]
+                self.swap(temp_order)
+                temp_order_cmax = self.c_max(temp_order)
+                order_cmax = self.c_max(order)
+                if temp_order_cmax >= order_cmax:
+                    probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
+                else:
+                    probability_of_acceptation = 1
+                temperature *= cooling
                 p_rand = random.random()
-            if probability_of_acceptation > p_rand:
-                order = temp_order[:]
+                while p_rand == probability_of_acceptation:
+                    p_rand = random.random()
+                if probability_of_acceptation > p_rand:
+                    order = temp_order[:]
+                makespan = self.c_max(order)
+        
+        elif method == 'insert':
+            while temperature > min_value:
+                temp_order = order[:]
+                self.insert(temp_order)
+                temp_order_cmax = self.c_max(temp_order)
+                order_cmax = self.c_max(order)
+                if temp_order_cmax >= order_cmax:
+                    probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
+                else:
+                    probability_of_acceptation = 1
+                temperature *= cooling
+                p_rand = random.random()
+                while p_rand == probability_of_acceptation:
+                    p_rand = random.random()
+                if probability_of_acceptation > p_rand:
+                    order = temp_order[:]
+                makespan = self.c_max(order)
+        
         self.simann_queue = order
-        self.simann_makespan = self.c_max(order)
-        print("INFO: SIMULATED ANNEALING: Optimal order for Neh's algorithm is: {}".format(self.simann_queue))
+        self.simann_makespan = makespan
+        print("INFO: SIMULATED ANNEALING: Optimal order for is: {}".format(self.simann_queue))
         print("INFO: SIMULATED ANNEALING: c-max value for optimal order: {}".format(self.simann_makespan))
+        return order, makespan
 
+    def simulated_annealing_iter(self, temperature, order, max_iter, method):
+        if method == 'swap':
+            iter = 1
+            if iter < max_iter:
+                temp_order = order[:]
+                self.swap(temp_order)
+                temp_order_cmax = self.c_max(temp_order)
+                order_cmax = self.c_max(order)
+                if temp_order_cmax >= order_cmax:
+                    probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
+                else:
+                    probability_of_acceptation = 1
+                temperature = (temperature*iter)/max_iter
+                iter +=1
+                p_rand = random.random()
+                while p_rand == probability_of_acceptation:
+                    p_rand = random.random()
+                if probability_of_acceptation > p_rand:
+                    order = temp_order[:]
+                makespan = self.c_max(order)
+        
+        elif method == 'insert':
+            iter = 1
+            if iter < max_iter:
+                temp_order = order[:]
+                self.insert(temp_order)
+                temp_order_cmax = self.c_max(temp_order)
+                order_cmax = self.c_max(order)
+                if temp_order_cmax >= order_cmax:
+                    probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
+                else:
+                    probability_of_acceptation = 1
+                temperature = (temperature*iter)/max_iter
+                iter +=1
+                p_rand = random.random()
+                while p_rand == probability_of_acceptation:
+                    p_rand = random.random()
+                if probability_of_acceptation > p_rand:
+                    order = temp_order[:]
+                makespan = self.c_max(order)
+
+        self.simann_queue = order
+        self.simann_makespan = makespan
+        print("INFO: SIMULATED ANNEALING: Optimal order is: {}".format(self.simann_queue))
+        print("INFO: SIMULATED ANNEALING: c-max value for optimal order: {}".format(self.simann_makespan))
+        return order, makespan
+
+    def simulated_annealing_reject_prob(self, temperature, order, min_value, cooling, method):
+        if method == 'swap':
+            while temperature > min_value:
+                temp_order = order[:]
+                self.swap(temp_order)
+                temp_order_cmax = self.c_max(temp_order)
+                order_cmax = self.c_max(order)
+                if temp_order_cmax >= order_cmax:
+                    probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
+                else:
+                    continue
+                temperature *= cooling
+                p_rand = random.random()
+                while p_rand == probability_of_acceptation:
+                    p_rand = random.random()
+                if probability_of_acceptation > p_rand:
+                    order = temp_order[:]
+                makespan = self.c_max(order)
+        
+        elif method == 'insert':
+            while temperature > min_value:
+                temp_order = order[:]
+                self.insert(temp_order)
+                temp_order_cmax = self.c_max(temp_order)
+                order_cmax = self.c_max(order)
+                if temp_order_cmax >= order_cmax:
+                    probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
+                else:
+                    continue
+                temperature *= cooling
+                p_rand = random.random()
+                while p_rand == probability_of_acceptation:
+                    p_rand = random.random()
+                if probability_of_acceptation > p_rand:
+                    order = temp_order[:]
+                makespan = self.c_max(order)
+        
+        self.simann_queue = order
+        self.simann_makespan = makespan
+        print("INFO: SIMULATED ANNEALING: Optimal order for is: {}".format(self.simann_queue))
+        print("INFO: SIMULATED ANNEALING: c-max value for optimal order: {}".format(self.simann_makespan))
+        return order, makespan
+
+    def simulated_annealing_only_diff(self, temperature, order, min_value, cooling, method):
+        if method == 'swap':
+            while temperature > min_value:
+                temp_order = order[:]
+                self.swap(temp_order)
+                temp_order_cmax = self.c_max(temp_order)
+                order_cmax = self.c_max(order)
+                if temp_order_cmax > order_cmax:
+                    probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
+                elif temp_order_cmax < order_cmax:
+                    probability_of_acceptation = 1
+                else:
+                    continue
+                temperature *= cooling
+                p_rand = random.random()
+                while p_rand == probability_of_acceptation:
+                    p_rand = random.random()
+                if probability_of_acceptation > p_rand:
+                    order = temp_order[:]
+                makespan = self.c_max(order)
+                
+        elif method == 'insert':
+            while temperature > min_value:
+                temp_order = order[:]
+                self.insert(temp_order)
+                temp_order_cmax = self.c_max(temp_order)
+                order_cmax = self.c_max(order)
+                if temp_order_cmax > order_cmax:
+                    probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
+                elif temp_order_cmax < order_cmax:
+                    probability_of_acceptation = 1
+                else:
+                    continue
+                temperature *= cooling
+                p_rand = random.random()
+                while p_rand == probability_of_acceptation:
+                    p_rand = random.random()
+                if probability_of_acceptation > p_rand:
+                    order = temp_order[:]
+                makespan = self.c_max(order)
+        
+        self.simann_queue = order
+        self.simann_makespan = makespan
+        print("INFO: SIMULATED ANNEALING: Optimal order for is: {}".format(self.simann_queue))
+        print("INFO: SIMULATED ANNEALING: c-max value for optimal order: {}".format(self.simann_makespan))
+        return order, makespan
 
     def save_results(self, filename, algorithm, json_to_write):
         data = {}
