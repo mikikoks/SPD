@@ -1,0 +1,396 @@
+--- data.014.txt ---
+SIMULATED ANNEALING with reject option cmax: 1810.6666666666667
+SIMULATED ANNEALING without reject option cmax: 1560.6666666666667
+Order compatibility: False
+--- data.077.txt ---
+SIMULATED ANNEALING with reject option cmax: 6750.0
+SIMULATED ANNEALING without reject option cmax: 6176.0
+Order compatibility: False
+--- data.059.txt ---
+SIMULATED ANNEALING with reject option cmax: 4704.666666666667
+SIMULATED ANNEALING without reject option cmax: 4366.0
+Order compatibility: False
+--- data.080.txt ---
+SIMULATED ANNEALING with reject option cmax: 6707.333333333333
+SIMULATED ANNEALING without reject option cmax: 6439.333333333333
+Order compatibility: False
+--- data.062.txt ---
+SIMULATED ANNEALING with reject option cmax: 5796.666666666667
+SIMULATED ANNEALING without reject option cmax: 5549.333333333333
+Order compatibility: False
+--- data.082.txt ---
+SIMULATED ANNEALING with reject option cmax: 7669.666666666667
+SIMULATED ANNEALING without reject option cmax: 7128.666666666667
+Order compatibility: False
+--- data.098.txt ---
+SIMULATED ANNEALING with reject option cmax: 12411.0
+SIMULATED ANNEALING without reject option cmax: 11800.666666666666
+Order compatibility: False
+--- data.074.txt ---
+SIMULATED ANNEALING with reject option cmax: 6945.0
+SIMULATED ANNEALING without reject option cmax: 6538.0
+Order compatibility: False
+--- data.097.txt ---
+SIMULATED ANNEALING with reject option cmax: 12334.0
+SIMULATED ANNEALING without reject option cmax: 11868.333333333334
+Order compatibility: False
+--- data.096.txt ---
+SIMULATED ANNEALING with reject option cmax: 12231.0
+SIMULATED ANNEALING without reject option cmax: 11467.333333333334
+Order compatibility: False
+--- data.008.txt ---
+SIMULATED ANNEALING with reject option cmax: 1552.6666666666667
+SIMULATED ANNEALING without reject option cmax: 1334.0
+Order compatibility: False
+--- data.048.txt ---
+SIMULATED ANNEALING with reject option cmax: 3792.0
+SIMULATED ANNEALING without reject option cmax: 3448.3333333333335
+Order compatibility: False
+--- data.076.txt ---
+SIMULATED ANNEALING with reject option cmax: 6493.333333333333
+SIMULATED ANNEALING without reject option cmax: 5952.333333333333
+Order compatibility: False
+--- data.037.txt ---
+SIMULATED ANNEALING with reject option cmax: 3301.3333333333335
+SIMULATED ANNEALING without reject option cmax: 2978.0
+Order compatibility: False
+--- data.036.txt ---
+SIMULATED ANNEALING with reject option cmax: 3505.0
+SIMULATED ANNEALING without reject option cmax: 3031.0
+Order compatibility: False
+--- data.034.txt ---
+SIMULATED ANNEALING with reject option cmax: 3173.3333333333335
+SIMULATED ANNEALING without reject option cmax: 2919.6666666666665
+Order compatibility: False
+--- data.039.txt ---
+SIMULATED ANNEALING with reject option cmax: 2878.0
+SIMULATED ANNEALING without reject option cmax: 2731.3333333333335
+Order compatibility: False
+--- data.026.txt ---
+SIMULATED ANNEALING with reject option cmax: 2760.6666666666665
+SIMULATED ANNEALING without reject option cmax: 2467.0
+Order compatibility: False
+--- data.066.txt ---
+SIMULATED ANNEALING with reject option cmax: 5819.666666666667
+SIMULATED ANNEALING without reject option cmax: 5371.666666666667
+Order compatibility: False
+--- data.006.txt ---
+SIMULATED ANNEALING with reject option cmax: 1618.6666666666667
+SIMULATED ANNEALING without reject option cmax: 1311.3333333333333
+Order compatibility: False
+--- data.063.txt ---
+SIMULATED ANNEALING with reject option cmax: 6017.333333333333
+SIMULATED ANNEALING without reject option cmax: 5430.666666666667
+Order compatibility: False
+--- data.075.txt ---
+SIMULATED ANNEALING with reject option cmax: 6548.333333333333
+SIMULATED ANNEALING without reject option cmax: 6116.666666666667
+Order compatibility: False
+--- data.088.txt ---
+SIMULATED ANNEALING with reject option cmax: 8192.0
+SIMULATED ANNEALING without reject option cmax: 7627.666666666667
+Order compatibility: False
+--- data.072.txt ---
+SIMULATED ANNEALING with reject option cmax: 6676.666666666667
+SIMULATED ANNEALING without reject option cmax: 6189.333333333333
+Order compatibility: False
+--- data.092.txt ---
+SIMULATED ANNEALING with reject option cmax: 12619.333333333334
+SIMULATED ANNEALING without reject option cmax: 11883.666666666666
+Order compatibility: False
+--- data.011.txt ---
+SIMULATED ANNEALING with reject option cmax: 1995.3333333333333
+SIMULATED ANNEALING without reject option cmax: 1768.6666666666667
+Order compatibility: False
+--- data.073.txt ---
+SIMULATED ANNEALING with reject option cmax: 6919.0
+SIMULATED ANNEALING without reject option cmax: 6316.666666666667
+Order compatibility: False
+--- data.042.txt ---
+SIMULATED ANNEALING with reject option cmax: 3790.3333333333335
+SIMULATED ANNEALING without reject option cmax: 3333.0
+Order compatibility: False
+--- data.065.txt ---
+SIMULATED ANNEALING with reject option cmax: 5941.666666666667
+SIMULATED ANNEALING without reject option cmax: 5585.666666666667
+Order compatibility: False
+--- data.040.txt ---
+SIMULATED ANNEALING with reject option cmax: 3161.6666666666665
+SIMULATED ANNEALING without reject option cmax: 2999.3333333333335
+Order compatibility: False
+--- data.060.txt ---
+SIMULATED ANNEALING with reject option cmax: 4892.333333333333
+SIMULATED ANNEALING without reject option cmax: 4452.0
+Order compatibility: False
+--- data.029.txt ---
+SIMULATED ANNEALING with reject option cmax: 2824.6666666666665
+SIMULATED ANNEALING without reject option cmax: 2437.3333333333335
+Order compatibility: False
+--- data.038.txt ---
+SIMULATED ANNEALING with reject option cmax: 3392.3333333333335
+SIMULATED ANNEALING without reject option cmax: 2922.6666666666665
+Order compatibility: False
+--- data.020.txt ---
+SIMULATED ANNEALING with reject option cmax: 2075.6666666666665
+SIMULATED ANNEALING without reject option cmax: 1797.0
+Order compatibility: False
+--- data.027.txt ---
+SIMULATED ANNEALING with reject option cmax: 2894.0
+SIMULATED ANNEALING without reject option cmax: 2480.3333333333335
+Order compatibility: False
+--- data.071.txt ---
+SIMULATED ANNEALING with reject option cmax: 6869.666666666667
+SIMULATED ANNEALING without reject option cmax: 6474.0
+Order compatibility: False
+--- data.028.txt ---
+SIMULATED ANNEALING with reject option cmax: 2696.6666666666665
+SIMULATED ANNEALING without reject option cmax: 2398.3333333333335
+Order compatibility: False
+--- data.078.txt ---
+SIMULATED ANNEALING with reject option cmax: 6670.666666666667
+SIMULATED ANNEALING without reject option cmax: 6288.666666666667
+Order compatibility: False
+--- data.003.txt ---
+SIMULATED ANNEALING with reject option cmax: 1466.3333333333333
+SIMULATED ANNEALING without reject option cmax: 1241.6666666666667
+Order compatibility: False
+--- data.019.txt ---
+SIMULATED ANNEALING with reject option cmax: 2077.3333333333335
+SIMULATED ANNEALING without reject option cmax: 1742.3333333333333
+Order compatibility: False
+--- data.094.txt ---
+SIMULATED ANNEALING with reject option cmax: 12111.666666666666
+SIMULATED ANNEALING without reject option cmax: 11712.0
+Order compatibility: False
+--- data.095.txt ---
+SIMULATED ANNEALING with reject option cmax: 12273.333333333334
+SIMULATED ANNEALING without reject option cmax: 11697.0
+Order compatibility: False
+--- data.051.txt ---
+SIMULATED ANNEALING with reject option cmax: 5072.333333333333
+SIMULATED ANNEALING without reject option cmax: 4525.333333333333
+Order compatibility: False
+--- data.052.txt ---
+SIMULATED ANNEALING with reject option cmax: 4759.333333333333
+SIMULATED ANNEALING without reject option cmax: 4316.333333333333
+Order compatibility: False
+--- data.055.txt ---
+SIMULATED ANNEALING with reject option cmax: 4804.0
+SIMULATED ANNEALING without reject option cmax: 4291.0
+Order compatibility: False
+--- data.050.txt ---
+SIMULATED ANNEALING with reject option cmax: 3933.6666666666665
+SIMULATED ANNEALING without reject option cmax: 3540.3333333333335
+Order compatibility: False
+--- data.056.txt ---
+SIMULATED ANNEALING with reject option cmax: 4651.666666666667
+SIMULATED ANNEALING without reject option cmax: 4295.666666666667
+Order compatibility: False
+--- data.043.txt ---
+SIMULATED ANNEALING with reject option cmax: 3815.6666666666665
+SIMULATED ANNEALING without reject option cmax: 3382.6666666666665
+Order compatibility: False
+--- data.069.txt ---
+SIMULATED ANNEALING with reject option cmax: 6170.0
+SIMULATED ANNEALING without reject option cmax: 5694.666666666667
+Order compatibility: False
+--- data.010.txt ---
+SIMULATED ANNEALING with reject option cmax: 1402.0
+SIMULATED ANNEALING without reject option cmax: 1234.6666666666667
+Order compatibility: False
+--- data.093.txt ---
+SIMULATED ANNEALING with reject option cmax: 12635.333333333334
+SIMULATED ANNEALING without reject option cmax: 12002.333333333334
+Order compatibility: False
+--- data.033.txt ---
+SIMULATED ANNEALING with reject option cmax: 3092.6666666666665
+SIMULATED ANNEALING without reject option cmax: 2800.3333333333335
+Order compatibility: False
+--- data.015.txt ---
+SIMULATED ANNEALING with reject option cmax: 1974.6666666666667
+SIMULATED ANNEALING without reject option cmax: 1634.6666666666667
+Order compatibility: False
+--- data.079.txt ---
+SIMULATED ANNEALING with reject option cmax: 6762.0
+SIMULATED ANNEALING without reject option cmax: 6413.666666666667
+Order compatibility: False
+--- data.091.txt ---
+SIMULATED ANNEALING with reject option cmax: 12491.666666666666
+SIMULATED ANNEALING without reject option cmax: 11759.333333333334
+Order compatibility: False
+--- data.090.txt ---
+SIMULATED ANNEALING with reject option cmax: 7892.666666666667
+SIMULATED ANNEALING without reject option cmax: 7400.0
+Order compatibility: False
+--- data.007.txt ---
+SIMULATED ANNEALING with reject option cmax: 1542.0
+SIMULATED ANNEALING without reject option cmax: 1293.3333333333333
+Order compatibility: False
+--- data.004.txt ---
+SIMULATED ANNEALING with reject option cmax: 1728.0
+SIMULATED ANNEALING without reject option cmax: 1454.0
+Order compatibility: False
+--- data.070.txt ---
+SIMULATED ANNEALING with reject option cmax: 6025.0
+SIMULATED ANNEALING without reject option cmax: 5652.0
+Order compatibility: False
+--- data.054.txt ---
+SIMULATED ANNEALING with reject option cmax: 4942.0
+SIMULATED ANNEALING without reject option cmax: 4354.666666666667
+Order compatibility: False
+--- data.089.txt ---
+SIMULATED ANNEALING with reject option cmax: 7999.0
+SIMULATED ANNEALING without reject option cmax: 7421.0
+Order compatibility: False
+--- data.012.txt ---
+SIMULATED ANNEALING with reject option cmax: 2090.6666666666665
+SIMULATED ANNEALING without reject option cmax: 1880.0
+Order compatibility: False
+--- data.044.txt ---
+SIMULATED ANNEALING with reject option cmax: 4103.0
+SIMULATED ANNEALING without reject option cmax: 3514.3333333333335
+Order compatibility: False
+--- data.001.txt ---
+SIMULATED ANNEALING with reject option cmax: 1592.0
+SIMULATED ANNEALING without reject option cmax: 1361.0
+Order compatibility: False
+--- data.030.txt ---
+SIMULATED ANNEALING with reject option cmax: 2649.6666666666665
+SIMULATED ANNEALING without reject option cmax: 2410.6666666666665
+Order compatibility: False
+--- data.018.txt ---
+SIMULATED ANNEALING with reject option cmax: 2047.0
+SIMULATED ANNEALING without reject option cmax: 1735.0
+Order compatibility: False
+--- data.067.txt ---
+SIMULATED ANNEALING with reject option cmax: 6057.333333333333
+SIMULATED ANNEALING without reject option cmax: 5546.0
+Order compatibility: False
+--- data.024.txt ---
+SIMULATED ANNEALING with reject option cmax: 2820.0
+SIMULATED ANNEALING without reject option cmax: 2438.6666666666665
+Order compatibility: False
+--- data.031.txt ---
+SIMULATED ANNEALING with reject option cmax: 3175.6666666666665
+SIMULATED ANNEALING without reject option cmax: 2855.3333333333335
+Order compatibility: False
+--- data.023.txt ---
+SIMULATED ANNEALING with reject option cmax: 2697.6666666666665
+SIMULATED ANNEALING without reject option cmax: 2512.3333333333335
+Order compatibility: False
+--- data.005.txt ---
+SIMULATED ANNEALING with reject option cmax: 1621.0
+SIMULATED ANNEALING without reject option cmax: 1346.3333333333333
+Order compatibility: False
+--- data.084.txt ---
+SIMULATED ANNEALING with reject option cmax: 7484.666666666667
+SIMULATED ANNEALING without reject option cmax: 7191.333333333333
+Order compatibility: False
+--- data.016.txt ---
+SIMULATED ANNEALING with reject option cmax: 1920.3333333333333
+SIMULATED ANNEALING without reject option cmax: 1570.3333333333333
+Order compatibility: False
+--- data.064.txt ---
+SIMULATED ANNEALING with reject option cmax: 5509.666666666667
+SIMULATED ANNEALING without reject option cmax: 5265.333333333333
+Order compatibility: False
+--- data.021.txt ---
+SIMULATED ANNEALING with reject option cmax: 2749.3333333333335
+SIMULATED ANNEALING without reject option cmax: 2457.0
+Order compatibility: False
+--- data.087.txt ---
+SIMULATED ANNEALING with reject option cmax: 7651.0
+SIMULATED ANNEALING without reject option cmax: 7353.666666666667
+Order compatibility: False
+--- data.081.txt ---
+SIMULATED ANNEALING with reject option cmax: 7619.0
+SIMULATED ANNEALING without reject option cmax: 7175.666666666667
+Order compatibility: False
+--- data.049.txt ---
+SIMULATED ANNEALING with reject option cmax: 3696.0
+SIMULATED ANNEALING without reject option cmax: 3335.3333333333335
+Order compatibility: False
+--- data.083.txt ---
+SIMULATED ANNEALING with reject option cmax: 7738.333333333333
+SIMULATED ANNEALING without reject option cmax: 7263.0
+Order compatibility: False
+--- data.017.txt ---
+SIMULATED ANNEALING with reject option cmax: 1924.6666666666667
+SIMULATED ANNEALING without reject option cmax: 1637.3333333333333
+Order compatibility: False
+--- data.047.txt ---
+SIMULATED ANNEALING with reject option cmax: 3882.3333333333335
+SIMULATED ANNEALING without reject option cmax: 3528.3333333333335
+Order compatibility: False
+--- data.058.txt ---
+SIMULATED ANNEALING with reject option cmax: 4780.0
+SIMULATED ANNEALING without reject option cmax: 4296.333333333333
+Order compatibility: False
+--- data.032.txt ---
+SIMULATED ANNEALING with reject option cmax: 3259.0
+SIMULATED ANNEALING without reject option cmax: 3027.0
+Order compatibility: False
+--- data.046.txt ---
+SIMULATED ANNEALING with reject option cmax: 3732.3333333333335
+SIMULATED ANNEALING without reject option cmax: 3424.3333333333335
+Order compatibility: False
+--- data.002.txt ---
+SIMULATED ANNEALING with reject option cmax: 1647.0
+SIMULATED ANNEALING without reject option cmax: 1407.0
+Order compatibility: False
+--- data.053.txt ---
+SIMULATED ANNEALING with reject option cmax: 5000.333333333333
+SIMULATED ANNEALING without reject option cmax: 4422.333333333333
+Order compatibility: False
+--- data.086.txt ---
+SIMULATED ANNEALING with reject option cmax: 8122.0
+SIMULATED ANNEALING without reject option cmax: 7550.333333333333
+Order compatibility: False
+--- data.085.txt ---
+SIMULATED ANNEALING with reject option cmax: 7875.333333333333
+SIMULATED ANNEALING without reject option cmax: 7411.666666666667
+Order compatibility: False
+--- data.035.txt ---
+SIMULATED ANNEALING with reject option cmax: 3249.3333333333335
+SIMULATED ANNEALING without reject option cmax: 3026.0
+Order compatibility: False
+--- data.057.txt ---
+SIMULATED ANNEALING with reject option cmax: 4769.333333333333
+SIMULATED ANNEALING without reject option cmax: 4433.666666666667
+Order compatibility: False
+--- data.009.txt ---
+SIMULATED ANNEALING with reject option cmax: 1589.6666666666667
+SIMULATED ANNEALING without reject option cmax: 1350.3333333333333
+Order compatibility: False
+--- data.061.txt ---
+SIMULATED ANNEALING with reject option cmax: 5962.666666666667
+SIMULATED ANNEALING without reject option cmax: 5662.666666666667
+Order compatibility: False
+--- data.041.txt ---
+SIMULATED ANNEALING with reject option cmax: 4027.3333333333335
+SIMULATED ANNEALING without reject option cmax: 3427.6666666666665
+Order compatibility: False
+--- data.099.txt ---
+SIMULATED ANNEALING with reject option cmax: 12434.666666666666
+SIMULATED ANNEALING without reject option cmax: 11589.0
+Order compatibility: False
+--- data.045.txt ---
+SIMULATED ANNEALING with reject option cmax: 4063.3333333333335
+SIMULATED ANNEALING without reject option cmax: 3549.6666666666665
+Order compatibility: False
+--- data.022.txt ---
+SIMULATED ANNEALING with reject option cmax: 2630.0
+SIMULATED ANNEALING without reject option cmax: 2300.3333333333335
+Order compatibility: False
+--- data.013.txt ---
+SIMULATED ANNEALING with reject option cmax: 1934.0
+SIMULATED ANNEALING without reject option cmax: 1707.0
+Order compatibility: False
+--- data.068.txt ---
+SIMULATED ANNEALING with reject option cmax: 5788.666666666667
+SIMULATED ANNEALING without reject option cmax: 5384.666666666667
+Order compatibility: False
+--- data.025.txt ---
+SIMULATED ANNEALING with reject option cmax: 2821.6666666666665
+SIMULATED ANNEALING without reject option cmax: 2523.0
+Order compatibility: False

@@ -1,0 +1,400 @@
+--- data.014.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1454.6666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 1467.0
+Order compatibility: False
+--- data.077.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5730.666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 5713.0
+Order compatibility: False
+--- data.059.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3970.6666666666665
+SIMULATED ANNEALING with neh_result start option cmax: 3980.0
+Order compatibility: False
+--- data.080.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5980.333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 5951.666666666667
+Order compatibility: False
+--- data.062.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5347.333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 5342.666666666667
+Order compatibility: False
+--- data.082.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 6556.0
+SIMULATED ANNEALING with neh_result start option cmax: 6552.666666666667
+Order compatibility: False
+--- data.098.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 10853.0
+SIMULATED ANNEALING with neh_result start option cmax: 10872.333333333334
+Order compatibility: False
+--- data.074.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5945.333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 5936.666666666667
+Order compatibility: False
+--- data.097.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 11005.666666666666
+SIMULATED ANNEALING with neh_result start option cmax: 10989.0
+Order compatibility: False
+--- data.096.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 10524.333333333334
+SIMULATED ANNEALING with neh_result start option cmax: 10488.0
+Order compatibility: False
+--- data.008.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1263.3333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 1244.0
+Order compatibility: False
+--- data.048.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3189.6666666666665
+SIMULATED ANNEALING with neh_result start option cmax: 3163.0
+Order compatibility: False
+--- data.076.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5409.333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 5422.0
+Order compatibility: False
+--- data.037.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2780.0
+SIMULATED ANNEALING with neh_result start option cmax: 2789.3333333333335
+Order compatibility: False
+--- data.036.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2877.0
+SIMULATED ANNEALING with neh_result start option cmax: 2850.3333333333335
+Order compatibility: False
+--- data.034.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2782.0
+SIMULATED ANNEALING with neh_result start option cmax: 2788.6666666666665
+Order compatibility: False
+--- data.039.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2589.0
+SIMULATED ANNEALING with neh_result start option cmax: 2582.3333333333335
+Order compatibility: False
+--- data.026.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2352.6666666666665
+SIMULATED ANNEALING with neh_result start option cmax: 2354.0
+Order compatibility: False
+--- data.066.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5169.0
+SIMULATED ANNEALING with neh_result start option cmax: 5142.666666666667
+Order compatibility: False
+--- data.006.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1227.0
+SIMULATED ANNEALING with neh_result start option cmax: 1224.0
+Order compatibility: False
+--- data.063.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5245.333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 5248.666666666667
+Order compatibility: False
+--- data.075.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5713.0
+SIMULATED ANNEALING with neh_result start option cmax: 5696.666666666667
+Order compatibility: False
+--- data.088.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 6739.0
+SIMULATED ANNEALING with neh_result start option cmax: 6776.333333333333
+Order compatibility: False
+--- data.072.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5474.0
+SIMULATED ANNEALING with neh_result start option cmax: 5481.0
+Order compatibility: False
+--- data.092.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 10756.333333333334
+SIMULATED ANNEALING with neh_result start option cmax: 10740.0
+Order compatibility: False
+--- data.011.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1677.6666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 1656.6666666666667
+Order compatibility: False
+--- data.073.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5813.333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 5821.333333333333
+Order compatibility: False
+--- data.042.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3040.6666666666665
+SIMULATED ANNEALING with neh_result start option cmax: 3045.3333333333335
+Order compatibility: False
+--- data.065.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5268.333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 5275.0
+Order compatibility: False
+--- data.040.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2808.3333333333335
+SIMULATED ANNEALING with neh_result start option cmax: 2797.3333333333335
+Order compatibility: False
+--- data.060.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 4105.333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 4064.3333333333335
+Order compatibility: False
+--- data.029.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2315.3333333333335
+SIMULATED ANNEALING with neh_result start option cmax: 2322.3333333333335
+Order compatibility: False
+--- data.038.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2713.6666666666665
+SIMULATED ANNEALING with neh_result start option cmax: 2726.6666666666665
+Order compatibility: False
+--- data.020.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1654.0
+SIMULATED ANNEALING with neh_result start option cmax: 1653.3333333333333
+Order compatibility: False
+--- data.027.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2370.3333333333335
+SIMULATED ANNEALING with neh_result start option cmax: 2391.6666666666665
+Order compatibility: False
+--- data.071.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5908.0
+SIMULATED ANNEALING with neh_result start option cmax: 5893.0
+Order compatibility: False
+--- data.028.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2256.6666666666665
+SIMULATED ANNEALING with neh_result start option cmax: 2258.0
+Order compatibility: True
+--- data.078.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5774.333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 5838.666666666667
+Order compatibility: False
+--- data.003.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1142.3333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 1159.0
+Order compatibility: False
+--- data.019.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1664.6666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 1649.6666666666667
+Order compatibility: False
+--- data.094.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 11062.0
+SIMULATED ANNEALING with neh_result start option cmax: 11068.0
+Order compatibility: False
+--- data.095.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 10683.666666666666
+SIMULATED ANNEALING with neh_result start option cmax: 10701.0
+Order compatibility: False
+--- data.051.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 4092.6666666666665
+SIMULATED ANNEALING with neh_result start option cmax: 4118.0
+Order compatibility: False
+--- data.052.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3934.6666666666665
+SIMULATED ANNEALING with neh_result start option cmax: 3914.0
+Order compatibility: False
+--- data.055.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3829.0
+SIMULATED ANNEALING with neh_result start option cmax: 3861.3333333333335
+Order compatibility: False
+--- data.050.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3268.0
+SIMULATED ANNEALING with neh_result start option cmax: 3299.3333333333335
+Order compatibility: False
+--- data.056.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3928.6666666666665
+SIMULATED ANNEALING with neh_result start option cmax: 3901.6666666666665
+Order compatibility: False
+--- data.043.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2998.0
+SIMULATED ANNEALING with neh_result start option cmax: 3012.0
+Order compatibility: False
+--- data.069.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5573.333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 5506.333333333333
+Order compatibility: False
+--- data.010.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1158.6666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 1154.0
+Order compatibility: False
+--- data.093.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 11072.0
+SIMULATED ANNEALING with neh_result start option cmax: 11078.0
+Order compatibility: False
+--- data.033.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2652.3333333333335
+SIMULATED ANNEALING with neh_result start option cmax: 2656.0
+Order compatibility: False
+--- data.015.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1517.6666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 1507.6666666666667
+Order compatibility: False
+--- data.079.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 6054.666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 6072.666666666667
+Order compatibility: False
+--- data.091.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 10953.0
+SIMULATED ANNEALING with neh_result start option cmax: 10952.333333333334
+Order compatibility: False
+--- data.090.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 6709.333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 6692.0
+Order compatibility: False
+--- data.007.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1277.3333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 1263.6666666666667
+Order compatibility: False
+--- data.004.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1348.0
+SIMULATED ANNEALING with neh_result start option cmax: 1336.0
+Order compatibility: False
+--- data.070.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5341.0
+SIMULATED ANNEALING with neh_result start option cmax: 5341.0
+Order compatibility: False
+--- data.054.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 4003.0
+SIMULATED ANNEALING with neh_result start option cmax: 3999.0
+Order compatibility: False
+--- data.089.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 6712.0
+SIMULATED ANNEALING with neh_result start option cmax: 6705.666666666667
+Order compatibility: False
+--- data.012.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1742.6666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 1775.3333333333333
+Order compatibility: False
+--- data.044.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3198.3333333333335
+SIMULATED ANNEALING with neh_result start option cmax: 3199.3333333333335
+Order compatibility: False
+--- data.001.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1296.6666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 1311.0
+Order compatibility: False
+--- data.030.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2291.3333333333335
+SIMULATED ANNEALING with neh_result start option cmax: 2286.6666666666665
+Order compatibility: False
+--- data.018.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1616.3333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 1645.3333333333333
+Order compatibility: False
+--- data.067.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5276.666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 5268.333333333333
+Order compatibility: False
+--- data.024.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2272.6666666666665
+SIMULATED ANNEALING with neh_result start option cmax: 2290.6666666666665
+Order compatibility: True
+--- data.031.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2739.0
+SIMULATED ANNEALING with neh_result start option cmax: 2740.6666666666665
+Order compatibility: False
+--- data.023.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2414.6666666666665
+SIMULATED ANNEALING with neh_result start option cmax: 2421.0
+Order compatibility: False
+--- data.005.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1319.3333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 1330.0
+Order compatibility: False
+--- data.084.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 6571.0
+SIMULATED ANNEALING with neh_result start option cmax: 6572.333333333333
+Order compatibility: False
+--- data.016.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1474.3333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 1452.3333333333333
+Order compatibility: False
+--- data.064.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5027.666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 5023.0
+Order compatibility: False
+--- data.021.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2403.6666666666665
+SIMULATED ANNEALING with neh_result start option cmax: 2436.6666666666665
+Order compatibility: True
+--- data.087.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 6697.0
+SIMULATED ANNEALING with neh_result start option cmax: 6659.666666666667
+Order compatibility: False
+--- data.081.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 6541.0
+SIMULATED ANNEALING with neh_result start option cmax: 6596.666666666667
+Order compatibility: False
+--- data.049.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3009.0
+SIMULATED ANNEALING with neh_result start option cmax: 3003.3333333333335
+Order compatibility: False
+--- data.083.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 6664.0
+SIMULATED ANNEALING with neh_result start option cmax: 6704.333333333333
+Order compatibility: False
+--- data.000.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 32.0
+SIMULATED ANNEALING with neh_result start option cmax: 32.0
+Order compatibility: True
+--- data.017.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1562.3333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 1570.6666666666667
+Order compatibility: False
+--- data.047.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3311.6666666666665
+SIMULATED ANNEALING with neh_result start option cmax: 3322.3333333333335
+Order compatibility: False
+--- data.058.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3956.3333333333335
+SIMULATED ANNEALING with neh_result start option cmax: 3957.3333333333335
+Order compatibility: False
+--- data.032.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2894.0
+SIMULATED ANNEALING with neh_result start option cmax: 2859.6666666666665
+Order compatibility: False
+--- data.046.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3174.0
+SIMULATED ANNEALING with neh_result start option cmax: 3197.0
+Order compatibility: False
+--- data.002.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1387.6666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 1372.6666666666667
+Order compatibility: False
+--- data.053.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3942.0
+SIMULATED ANNEALING with neh_result start option cmax: 3948.3333333333335
+Order compatibility: False
+--- data.086.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 6719.0
+SIMULATED ANNEALING with neh_result start option cmax: 6738.0
+Order compatibility: False
+--- data.085.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 6737.333333333333
+SIMULATED ANNEALING with neh_result start option cmax: 6731.0
+Order compatibility: False
+--- data.035.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2872.3333333333335
+SIMULATED ANNEALING with neh_result start option cmax: 2885.0
+Order compatibility: False
+--- data.057.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3989.0
+SIMULATED ANNEALING with neh_result start option cmax: 3966.0
+Order compatibility: False
+--- data.009.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1302.6666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 1317.3333333333333
+Order compatibility: False
+--- data.061.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5519.666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 5519.0
+Order compatibility: False
+--- data.041.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3180.0
+SIMULATED ANNEALING with neh_result start option cmax: 3156.6666666666665
+Order compatibility: False
+--- data.099.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 10606.333333333334
+SIMULATED ANNEALING with neh_result start option cmax: 10573.333333333334
+Order compatibility: False
+--- data.045.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 3194.6666666666665
+SIMULATED ANNEALING with neh_result start option cmax: 3178.3333333333335
+Order compatibility: False
+--- data.022.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2187.3333333333335
+SIMULATED ANNEALING with neh_result start option cmax: 2150.0
+Order compatibility: True
+--- data.013.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 1587.6666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 1592.3333333333333
+Order compatibility: False
+--- data.068.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 5128.666666666667
+SIMULATED ANNEALING with neh_result start option cmax: 5129.0
+Order compatibility: False
+--- data.025.txt ---
+SIMULATED ANNEALING with neh_prio start option cmax: 2395.0
+SIMULATED ANNEALING with neh_result start option cmax: 2397.3333333333335
+Order compatibility: False

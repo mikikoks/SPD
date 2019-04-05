@@ -1,0 +1,400 @@
+--- data.014.txt ---
+SIMULATED ANNEALING insert average cmax:: 1573.3333333333333
+SIMULATED ANNEALING swap average cmax: 1543.6666666666667
+Order compatibility: False
+--- data.077.txt ---
+SIMULATED ANNEALING insert average cmax:: 6309.0
+SIMULATED ANNEALING swap average cmax: 6220.666666666667
+Order compatibility: False
+--- data.059.txt ---
+SIMULATED ANNEALING insert average cmax:: 4328.0
+SIMULATED ANNEALING swap average cmax: 4336.0
+Order compatibility: False
+--- data.080.txt ---
+SIMULATED ANNEALING insert average cmax:: 6461.666666666667
+SIMULATED ANNEALING swap average cmax: 6362.0
+Order compatibility: False
+--- data.062.txt ---
+SIMULATED ANNEALING insert average cmax:: 5590.666666666667
+SIMULATED ANNEALING swap average cmax: 5551.666666666667
+Order compatibility: False
+--- data.082.txt ---
+SIMULATED ANNEALING insert average cmax:: 7237.333333333333
+SIMULATED ANNEALING swap average cmax: 7247.333333333333
+Order compatibility: False
+--- data.098.txt ---
+SIMULATED ANNEALING insert average cmax:: 11858.666666666666
+SIMULATED ANNEALING swap average cmax: 11808.0
+Order compatibility: False
+--- data.074.txt ---
+SIMULATED ANNEALING insert average cmax:: 6609.666666666667
+SIMULATED ANNEALING swap average cmax: 6581.333333333333
+Order compatibility: False
+--- data.097.txt ---
+SIMULATED ANNEALING insert average cmax:: 11917.666666666666
+SIMULATED ANNEALING swap average cmax: 11855.0
+Order compatibility: False
+--- data.096.txt ---
+SIMULATED ANNEALING insert average cmax:: 11622.333333333334
+SIMULATED ANNEALING swap average cmax: 11521.666666666666
+Order compatibility: False
+--- data.008.txt ---
+SIMULATED ANNEALING insert average cmax:: 1331.6666666666667
+SIMULATED ANNEALING swap average cmax: 1334.6666666666667
+Order compatibility: False
+--- data.048.txt ---
+SIMULATED ANNEALING insert average cmax:: 3436.0
+SIMULATED ANNEALING swap average cmax: 3414.3333333333335
+Order compatibility: False
+--- data.076.txt ---
+SIMULATED ANNEALING insert average cmax:: 6043.666666666667
+SIMULATED ANNEALING swap average cmax: 5966.0
+Order compatibility: False
+--- data.037.txt ---
+SIMULATED ANNEALING insert average cmax:: 2932.6666666666665
+SIMULATED ANNEALING swap average cmax: 2946.6666666666665
+Order compatibility: False
+--- data.036.txt ---
+SIMULATED ANNEALING insert average cmax:: 3147.3333333333335
+SIMULATED ANNEALING swap average cmax: 3061.3333333333335
+Order compatibility: False
+--- data.034.txt ---
+SIMULATED ANNEALING insert average cmax:: 2989.6666666666665
+SIMULATED ANNEALING swap average cmax: 2981.6666666666665
+Order compatibility: False
+--- data.039.txt ---
+SIMULATED ANNEALING insert average cmax:: 2716.6666666666665
+SIMULATED ANNEALING swap average cmax: 2696.3333333333335
+Order compatibility: False
+--- data.026.txt ---
+SIMULATED ANNEALING insert average cmax:: 2458.0
+SIMULATED ANNEALING swap average cmax: 2414.0
+Order compatibility: False
+--- data.066.txt ---
+SIMULATED ANNEALING insert average cmax:: 5416.666666666667
+SIMULATED ANNEALING swap average cmax: 5442.0
+Order compatibility: False
+--- data.006.txt ---
+SIMULATED ANNEALING insert average cmax:: 1366.0
+SIMULATED ANNEALING swap average cmax: 1318.6666666666667
+Order compatibility: False
+--- data.063.txt ---
+SIMULATED ANNEALING insert average cmax:: 5439.666666666667
+SIMULATED ANNEALING swap average cmax: 5396.666666666667
+Order compatibility: False
+--- data.075.txt ---
+SIMULATED ANNEALING insert average cmax:: 6166.0
+SIMULATED ANNEALING swap average cmax: 6197.666666666667
+Order compatibility: False
+--- data.088.txt ---
+SIMULATED ANNEALING insert average cmax:: 7535.333333333333
+SIMULATED ANNEALING swap average cmax: 7562.666666666667
+Order compatibility: False
+--- data.072.txt ---
+SIMULATED ANNEALING insert average cmax:: 6237.0
+SIMULATED ANNEALING swap average cmax: 6154.666666666667
+Order compatibility: False
+--- data.092.txt ---
+SIMULATED ANNEALING insert average cmax:: 12077.333333333334
+SIMULATED ANNEALING swap average cmax: 11812.0
+Order compatibility: False
+--- data.011.txt ---
+SIMULATED ANNEALING insert average cmax:: 1737.6666666666667
+SIMULATED ANNEALING swap average cmax: 1714.6666666666667
+Order compatibility: False
+--- data.073.txt ---
+SIMULATED ANNEALING insert average cmax:: 6394.333333333333
+SIMULATED ANNEALING swap average cmax: 6336.0
+Order compatibility: False
+--- data.042.txt ---
+SIMULATED ANNEALING insert average cmax:: 3388.0
+SIMULATED ANNEALING swap average cmax: 3387.0
+Order compatibility: False
+--- data.065.txt ---
+SIMULATED ANNEALING insert average cmax:: 5549.333333333333
+SIMULATED ANNEALING swap average cmax: 5611.333333333333
+Order compatibility: False
+--- data.040.txt ---
+SIMULATED ANNEALING insert average cmax:: 2972.3333333333335
+SIMULATED ANNEALING swap average cmax: 2938.6666666666665
+Order compatibility: False
+--- data.060.txt ---
+SIMULATED ANNEALING insert average cmax:: 4490.0
+SIMULATED ANNEALING swap average cmax: 4454.666666666667
+Order compatibility: False
+--- data.029.txt ---
+SIMULATED ANNEALING insert average cmax:: 2436.3333333333335
+SIMULATED ANNEALING swap average cmax: 2466.0
+Order compatibility: False
+--- data.038.txt ---
+SIMULATED ANNEALING insert average cmax:: 2919.0
+SIMULATED ANNEALING swap average cmax: 2895.3333333333335
+Order compatibility: False
+--- data.020.txt ---
+SIMULATED ANNEALING insert average cmax:: 1760.3333333333333
+SIMULATED ANNEALING swap average cmax: 1761.3333333333333
+Order compatibility: False
+--- data.027.txt ---
+SIMULATED ANNEALING insert average cmax:: 2458.0
+SIMULATED ANNEALING swap average cmax: 2447.0
+Order compatibility: False
+--- data.071.txt ---
+SIMULATED ANNEALING insert average cmax:: 6399.333333333333
+SIMULATED ANNEALING swap average cmax: 6415.0
+Order compatibility: False
+--- data.028.txt ---
+SIMULATED ANNEALING insert average cmax:: 2367.6666666666665
+SIMULATED ANNEALING swap average cmax: 2411.6666666666665
+Order compatibility: False
+--- data.078.txt ---
+SIMULATED ANNEALING insert average cmax:: 6304.666666666667
+SIMULATED ANNEALING swap average cmax: 6194.0
+Order compatibility: False
+--- data.003.txt ---
+SIMULATED ANNEALING insert average cmax:: 1261.3333333333333
+SIMULATED ANNEALING swap average cmax: 1234.0
+Order compatibility: False
+--- data.019.txt ---
+SIMULATED ANNEALING insert average cmax:: 1749.0
+SIMULATED ANNEALING swap average cmax: 1722.0
+Order compatibility: False
+--- data.094.txt ---
+SIMULATED ANNEALING insert average cmax:: 11819.0
+SIMULATED ANNEALING swap average cmax: 11727.333333333334
+Order compatibility: False
+--- data.095.txt ---
+SIMULATED ANNEALING insert average cmax:: 11822.333333333334
+SIMULATED ANNEALING swap average cmax: 11729.333333333334
+Order compatibility: False
+--- data.051.txt ---
+SIMULATED ANNEALING insert average cmax:: 4598.333333333333
+SIMULATED ANNEALING swap average cmax: 4518.666666666667
+Order compatibility: False
+--- data.052.txt ---
+SIMULATED ANNEALING insert average cmax:: 4337.666666666667
+SIMULATED ANNEALING swap average cmax: 4306.333333333333
+Order compatibility: False
+--- data.055.txt ---
+SIMULATED ANNEALING insert average cmax:: 4370.333333333333
+SIMULATED ANNEALING swap average cmax: 4341.0
+Order compatibility: False
+--- data.050.txt ---
+SIMULATED ANNEALING insert average cmax:: 3522.0
+SIMULATED ANNEALING swap average cmax: 3541.6666666666665
+Order compatibility: False
+--- data.056.txt ---
+SIMULATED ANNEALING insert average cmax:: 4334.333333333333
+SIMULATED ANNEALING swap average cmax: 4335.0
+Order compatibility: False
+--- data.043.txt ---
+SIMULATED ANNEALING insert average cmax:: 3328.0
+SIMULATED ANNEALING swap average cmax: 3377.6666666666665
+Order compatibility: False
+--- data.069.txt ---
+SIMULATED ANNEALING insert average cmax:: 5737.666666666667
+SIMULATED ANNEALING swap average cmax: 5712.0
+Order compatibility: False
+--- data.010.txt ---
+SIMULATED ANNEALING insert average cmax:: 1231.3333333333333
+SIMULATED ANNEALING swap average cmax: 1215.6666666666667
+Order compatibility: False
+--- data.093.txt ---
+SIMULATED ANNEALING insert average cmax:: 12006.0
+SIMULATED ANNEALING swap average cmax: 11875.333333333334
+Order compatibility: False
+--- data.033.txt ---
+SIMULATED ANNEALING insert average cmax:: 2840.0
+SIMULATED ANNEALING swap average cmax: 2817.0
+Order compatibility: False
+--- data.015.txt ---
+SIMULATED ANNEALING insert average cmax:: 1696.6666666666667
+SIMULATED ANNEALING swap average cmax: 1621.3333333333333
+Order compatibility: False
+--- data.079.txt ---
+SIMULATED ANNEALING insert average cmax:: 6442.666666666667
+SIMULATED ANNEALING swap average cmax: 6415.666666666667
+Order compatibility: False
+--- data.091.txt ---
+SIMULATED ANNEALING insert average cmax:: 11891.666666666666
+SIMULATED ANNEALING swap average cmax: 11838.666666666666
+Order compatibility: False
+--- data.090.txt ---
+SIMULATED ANNEALING insert average cmax:: 7412.0
+SIMULATED ANNEALING swap average cmax: 7478.666666666667
+Order compatibility: False
+--- data.007.txt ---
+SIMULATED ANNEALING insert average cmax:: 1312.6666666666667
+SIMULATED ANNEALING swap average cmax: 1308.0
+Order compatibility: False
+--- data.004.txt ---
+SIMULATED ANNEALING insert average cmax:: 1452.3333333333333
+SIMULATED ANNEALING swap average cmax: 1428.0
+Order compatibility: False
+--- data.070.txt ---
+SIMULATED ANNEALING insert average cmax:: 5744.333333333333
+SIMULATED ANNEALING swap average cmax: 5628.333333333333
+Order compatibility: False
+--- data.054.txt ---
+SIMULATED ANNEALING insert average cmax:: 4459.333333333333
+SIMULATED ANNEALING swap average cmax: 4408.333333333333
+Order compatibility: False
+--- data.089.txt ---
+SIMULATED ANNEALING insert average cmax:: 7522.666666666667
+SIMULATED ANNEALING swap average cmax: 7435.0
+Order compatibility: False
+--- data.012.txt ---
+SIMULATED ANNEALING insert average cmax:: 1824.0
+SIMULATED ANNEALING swap average cmax: 1825.6666666666667
+Order compatibility: False
+--- data.044.txt ---
+SIMULATED ANNEALING insert average cmax:: 3453.3333333333335
+SIMULATED ANNEALING swap average cmax: 3458.3333333333335
+Order compatibility: False
+--- data.001.txt ---
+SIMULATED ANNEALING insert average cmax:: 1357.0
+SIMULATED ANNEALING swap average cmax: 1317.6666666666667
+Order compatibility: False
+--- data.030.txt ---
+SIMULATED ANNEALING insert average cmax:: 2406.6666666666665
+SIMULATED ANNEALING swap average cmax: 2432.3333333333335
+Order compatibility: False
+--- data.018.txt ---
+SIMULATED ANNEALING insert average cmax:: 1760.0
+SIMULATED ANNEALING swap average cmax: 1741.6666666666667
+Order compatibility: False
+--- data.067.txt ---
+SIMULATED ANNEALING insert average cmax:: 5599.0
+SIMULATED ANNEALING swap average cmax: 5525.333333333333
+Order compatibility: False
+--- data.024.txt ---
+SIMULATED ANNEALING insert average cmax:: 2470.6666666666665
+SIMULATED ANNEALING swap average cmax: 2428.3333333333335
+Order compatibility: False
+--- data.031.txt ---
+SIMULATED ANNEALING insert average cmax:: 2890.6666666666665
+SIMULATED ANNEALING swap average cmax: 2892.3333333333335
+Order compatibility: False
+--- data.023.txt ---
+SIMULATED ANNEALING insert average cmax:: 2470.3333333333335
+SIMULATED ANNEALING swap average cmax: 2524.3333333333335
+Order compatibility: False
+--- data.005.txt ---
+SIMULATED ANNEALING insert average cmax:: 1364.0
+SIMULATED ANNEALING swap average cmax: 1347.0
+Order compatibility: False
+--- data.084.txt ---
+SIMULATED ANNEALING insert average cmax:: 7186.333333333333
+SIMULATED ANNEALING swap average cmax: 7178.0
+Order compatibility: False
+--- data.016.txt ---
+SIMULATED ANNEALING insert average cmax:: 1606.0
+SIMULATED ANNEALING swap average cmax: 1599.0
+Order compatibility: False
+--- data.064.txt ---
+SIMULATED ANNEALING insert average cmax:: 5254.333333333333
+SIMULATED ANNEALING swap average cmax: 5267.0
+Order compatibility: False
+--- data.021.txt ---
+SIMULATED ANNEALING insert average cmax:: 2512.0
+SIMULATED ANNEALING swap average cmax: 2511.0
+Order compatibility: False
+--- data.087.txt ---
+SIMULATED ANNEALING insert average cmax:: 7308.666666666667
+SIMULATED ANNEALING swap average cmax: 7232.333333333333
+Order compatibility: False
+--- data.081.txt ---
+SIMULATED ANNEALING insert average cmax:: 7217.0
+SIMULATED ANNEALING swap average cmax: 7279.0
+Order compatibility: False
+--- data.049.txt ---
+SIMULATED ANNEALING insert average cmax:: 3315.6666666666665
+SIMULATED ANNEALING swap average cmax: 3251.6666666666665
+Order compatibility: False
+--- data.083.txt ---
+SIMULATED ANNEALING insert average cmax:: 7282.333333333333
+SIMULATED ANNEALING swap average cmax: 7260.666666666667
+Order compatibility: False
+--- data.000.txt ---
+SIMULATED ANNEALING insert average cmax:: 32.0
+SIMULATED ANNEALING swap average cmax: 32.0
+Order compatibility: True
+--- data.017.txt ---
+SIMULATED ANNEALING insert average cmax:: 1660.6666666666667
+SIMULATED ANNEALING swap average cmax: 1649.3333333333333
+Order compatibility: False
+--- data.047.txt ---
+SIMULATED ANNEALING insert average cmax:: 3528.3333333333335
+SIMULATED ANNEALING swap average cmax: 3532.3333333333335
+Order compatibility: False
+--- data.058.txt ---
+SIMULATED ANNEALING insert average cmax:: 4318.0
+SIMULATED ANNEALING swap average cmax: 4329.666666666667
+Order compatibility: False
+--- data.032.txt ---
+SIMULATED ANNEALING insert average cmax:: 3004.0
+SIMULATED ANNEALING swap average cmax: 3060.3333333333335
+Order compatibility: False
+--- data.046.txt ---
+SIMULATED ANNEALING insert average cmax:: 3471.3333333333335
+SIMULATED ANNEALING swap average cmax: 3412.6666666666665
+Order compatibility: False
+--- data.002.txt ---
+SIMULATED ANNEALING insert average cmax:: 1419.6666666666667
+SIMULATED ANNEALING swap average cmax: 1405.0
+Order compatibility: False
+--- data.053.txt ---
+SIMULATED ANNEALING insert average cmax:: 4474.666666666667
+SIMULATED ANNEALING swap average cmax: 4379.0
+Order compatibility: False
+--- data.086.txt ---
+SIMULATED ANNEALING insert average cmax:: 7550.666666666667
+SIMULATED ANNEALING swap average cmax: 7482.333333333333
+Order compatibility: False
+--- data.085.txt ---
+SIMULATED ANNEALING insert average cmax:: 7410.333333333333
+SIMULATED ANNEALING swap average cmax: 7352.333333333333
+Order compatibility: False
+--- data.035.txt ---
+SIMULATED ANNEALING insert average cmax:: 3020.0
+SIMULATED ANNEALING swap average cmax: 3030.6666666666665
+Order compatibility: False
+--- data.057.txt ---
+SIMULATED ANNEALING insert average cmax:: 4403.333333333333
+SIMULATED ANNEALING swap average cmax: 4352.666666666667
+Order compatibility: False
+--- data.009.txt ---
+SIMULATED ANNEALING insert average cmax:: 1348.3333333333333
+SIMULATED ANNEALING swap average cmax: 1361.6666666666667
+Order compatibility: False
+--- data.061.txt ---
+SIMULATED ANNEALING insert average cmax:: 5725.666666666667
+SIMULATED ANNEALING swap average cmax: 5714.666666666667
+Order compatibility: False
+--- data.041.txt ---
+SIMULATED ANNEALING insert average cmax:: 3542.3333333333335
+SIMULATED ANNEALING swap average cmax: 3392.0
+Order compatibility: False
+--- data.099.txt ---
+SIMULATED ANNEALING insert average cmax:: 11752.333333333334
+SIMULATED ANNEALING swap average cmax: 11544.0
+Order compatibility: False
+--- data.045.txt ---
+SIMULATED ANNEALING insert average cmax:: 3499.6666666666665
+SIMULATED ANNEALING swap average cmax: 3435.3333333333335
+Order compatibility: False
+--- data.022.txt ---
+SIMULATED ANNEALING insert average cmax:: 2299.0
+SIMULATED ANNEALING swap average cmax: 2263.3333333333335
+Order compatibility: False
+--- data.013.txt ---
+SIMULATED ANNEALING insert average cmax:: 1665.3333333333333
+SIMULATED ANNEALING swap average cmax: 1665.6666666666667
+Order compatibility: False
+--- data.068.txt ---
+SIMULATED ANNEALING insert average cmax:: 5447.666666666667
+SIMULATED ANNEALING swap average cmax: 5375.0
+Order compatibility: False
+--- data.025.txt ---
+SIMULATED ANNEALING insert average cmax:: 2526.0
+SIMULATED ANNEALING swap average cmax: 2516.0
+Order compatibility: False

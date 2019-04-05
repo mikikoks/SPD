@@ -1,0 +1,500 @@
+--- data.014.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1550.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 1496.6666666666667
+SIMULATED ANNEALING cooling 0.95 average cmax: 1487.6666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 1437.6666666666667
+--- data.077.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 6245.333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 6050.333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 5979.666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 5838.666666666667
+--- data.059.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 4333.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 4212.666666666667
+SIMULATED ANNEALING cooling 0.95 average cmax: 4183.333333333333
+SIMULATED ANNEALING cooling 0.99 average cmax: 4005.3333333333335
+--- data.080.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 6353.666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 6277.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 6231.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 6057.0
+--- data.062.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 5544.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 5441.333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 5409.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 5310.333333333333
+--- data.082.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 7282.333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 7051.666666666667
+SIMULATED ANNEALING cooling 0.95 average cmax: 6951.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 6826.666666666667
+--- data.098.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 11875.333333333334
+SIMULATED ANNEALING cooling 0.9 average cmax: 11660.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 11354.333333333334
+SIMULATED ANNEALING cooling 0.99 average cmax: 11072.333333333334
+--- data.074.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 6568.333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 6404.333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 6298.333333333333
+SIMULATED ANNEALING cooling 0.99 average cmax: 6053.666666666667
+--- data.097.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 11788.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 11580.666666666666
+SIMULATED ANNEALING cooling 0.95 average cmax: 11471.333333333334
+SIMULATED ANNEALING cooling 0.99 average cmax: 11206.333333333334
+--- data.096.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 11459.666666666666
+SIMULATED ANNEALING cooling 0.9 average cmax: 11128.333333333334
+SIMULATED ANNEALING cooling 0.95 average cmax: 10948.333333333334
+SIMULATED ANNEALING cooling 0.99 average cmax: 10741.333333333334
+--- data.008.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1334.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 1307.3333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 1247.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 1228.0
+--- data.048.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 3448.6666666666665
+SIMULATED ANNEALING cooling 0.9 average cmax: 3347.3333333333335
+SIMULATED ANNEALING cooling 0.95 average cmax: 3297.3333333333335
+SIMULATED ANNEALING cooling 0.99 average cmax: 3194.0
+--- data.076.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 5957.666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 5859.333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 5688.666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 5468.333333333333
+--- data.037.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2926.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 2873.3333333333335
+SIMULATED ANNEALING cooling 0.95 average cmax: 2841.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 2771.3333333333335
+--- data.036.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 3058.3333333333335
+SIMULATED ANNEALING cooling 0.9 average cmax: 2969.6666666666665
+SIMULATED ANNEALING cooling 0.95 average cmax: 2914.3333333333335
+SIMULATED ANNEALING cooling 0.99 average cmax: 2866.6666666666665
+--- data.034.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2954.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 2910.3333333333335
+SIMULATED ANNEALING cooling 0.95 average cmax: 2865.6666666666665
+SIMULATED ANNEALING cooling 0.99 average cmax: 2783.6666666666665
+--- data.039.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2700.3333333333335
+SIMULATED ANNEALING cooling 0.9 average cmax: 2707.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 2621.6666666666665
+SIMULATED ANNEALING cooling 0.99 average cmax: 2593.3333333333335
+--- data.026.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2383.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 2366.3333333333335
+SIMULATED ANNEALING cooling 0.95 average cmax: 2347.6666666666665
+SIMULATED ANNEALING cooling 0.99 average cmax: 2297.3333333333335
+--- data.066.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 5415.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 5273.666666666667
+SIMULATED ANNEALING cooling 0.95 average cmax: 5225.666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 5180.333333333333
+--- data.006.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1297.6666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 1270.3333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 1244.6666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 1231.0
+--- data.063.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 5422.333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 5383.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 5324.666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 5249.333333333333
+--- data.075.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 6170.666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 6044.666666666667
+SIMULATED ANNEALING cooling 0.95 average cmax: 5972.666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 5785.333333333333
+--- data.088.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 7541.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 7425.333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 7259.333333333333
+SIMULATED ANNEALING cooling 0.99 average cmax: 6978.0
+--- data.072.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 6137.666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 5984.666666666667
+SIMULATED ANNEALING cooling 0.95 average cmax: 5850.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 5582.333333333333
+--- data.092.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 11985.333333333334
+SIMULATED ANNEALING cooling 0.9 average cmax: 11461.666666666666
+SIMULATED ANNEALING cooling 0.95 average cmax: 11214.666666666666
+SIMULATED ANNEALING cooling 0.99 average cmax: 10936.333333333334
+--- data.011.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1753.3333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 1712.3333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 1674.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 1631.0
+--- data.073.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 6326.666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 6138.666666666667
+SIMULATED ANNEALING cooling 0.95 average cmax: 6091.666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 5870.333333333333
+--- data.042.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 3447.6666666666665
+SIMULATED ANNEALING cooling 0.9 average cmax: 3275.6666666666665
+SIMULATED ANNEALING cooling 0.95 average cmax: 3198.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 3047.3333333333335
+--- data.065.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 5561.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 5413.666666666667
+SIMULATED ANNEALING cooling 0.95 average cmax: 5413.666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 5311.333333333333
+--- data.040.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 3012.3333333333335
+SIMULATED ANNEALING cooling 0.9 average cmax: 2874.6666666666665
+SIMULATED ANNEALING cooling 0.95 average cmax: 2852.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 2813.3333333333335
+--- data.060.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 4473.666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 4361.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 4280.333333333333
+SIMULATED ANNEALING cooling 0.99 average cmax: 4038.3333333333335
+--- data.029.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2496.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 2444.3333333333335
+SIMULATED ANNEALING cooling 0.95 average cmax: 2399.6666666666665
+SIMULATED ANNEALING cooling 0.99 average cmax: 2335.0
+--- data.038.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2885.3333333333335
+SIMULATED ANNEALING cooling 0.9 average cmax: 2833.6666666666665
+SIMULATED ANNEALING cooling 0.95 average cmax: 2790.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 2732.0
+--- data.020.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1746.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 1714.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 1699.6666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 1655.0
+--- data.027.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2467.6666666666665
+SIMULATED ANNEALING cooling 0.9 average cmax: 2428.3333333333335
+SIMULATED ANNEALING cooling 0.95 average cmax: 2422.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 2349.6666666666665
+--- data.071.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 6432.666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 6314.333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 6184.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 6013.0
+--- data.028.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2421.3333333333335
+SIMULATED ANNEALING cooling 0.9 average cmax: 2375.3333333333335
+SIMULATED ANNEALING cooling 0.95 average cmax: 2314.3333333333335
+SIMULATED ANNEALING cooling 0.99 average cmax: 2266.0
+--- data.078.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 6278.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 6058.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 6039.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 5849.333333333333
+--- data.003.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1220.6666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 1168.3333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 1142.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 1107.6666666666667
+--- data.019.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1737.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 1711.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 1668.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 1635.3333333333333
+--- data.094.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 11717.333333333334
+SIMULATED ANNEALING cooling 0.9 average cmax: 11554.666666666666
+SIMULATED ANNEALING cooling 0.95 average cmax: 11345.666666666666
+SIMULATED ANNEALING cooling 0.99 average cmax: 11091.0
+--- data.095.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 11794.333333333334
+SIMULATED ANNEALING cooling 0.9 average cmax: 11423.333333333334
+SIMULATED ANNEALING cooling 0.95 average cmax: 11306.666666666666
+SIMULATED ANNEALING cooling 0.99 average cmax: 10909.666666666666
+--- data.051.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 4562.333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 4357.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 4267.333333333333
+SIMULATED ANNEALING cooling 0.99 average cmax: 4147.333333333333
+--- data.052.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 4296.333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 4221.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 4136.666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 3982.6666666666665
+--- data.055.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 4331.666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 4199.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 4114.333333333333
+SIMULATED ANNEALING cooling 0.99 average cmax: 3961.0
+--- data.050.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 3494.6666666666665
+SIMULATED ANNEALING cooling 0.9 average cmax: 3406.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 3357.6666666666665
+SIMULATED ANNEALING cooling 0.99 average cmax: 3240.0
+--- data.056.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 4286.333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 4205.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 4154.666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 4002.3333333333335
+--- data.043.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 3317.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 3261.6666666666665
+SIMULATED ANNEALING cooling 0.95 average cmax: 3177.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 3065.0
+--- data.069.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 5664.333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 5636.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 5630.333333333333
+SIMULATED ANNEALING cooling 0.99 average cmax: 5514.666666666667
+--- data.010.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1253.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 1194.6666666666667
+SIMULATED ANNEALING cooling 0.95 average cmax: 1174.6666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 1138.3333333333333
+--- data.093.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 11886.666666666666
+SIMULATED ANNEALING cooling 0.9 average cmax: 11710.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 11510.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 11233.0
+--- data.033.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2787.6666666666665
+SIMULATED ANNEALING cooling 0.9 average cmax: 2746.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 2704.3333333333335
+SIMULATED ANNEALING cooling 0.99 average cmax: 2678.6666666666665
+--- data.015.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1586.6666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 1582.3333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 1524.6666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 1463.6666666666667
+--- data.079.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 6382.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 6329.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 6220.666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 6073.0
+--- data.091.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 11763.666666666666
+SIMULATED ANNEALING cooling 0.9 average cmax: 11557.666666666666
+SIMULATED ANNEALING cooling 0.95 average cmax: 11422.333333333334
+SIMULATED ANNEALING cooling 0.99 average cmax: 11123.333333333334
+--- data.090.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 7384.666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 7290.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 7140.333333333333
+SIMULATED ANNEALING cooling 0.99 average cmax: 6872.0
+--- data.007.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1299.3333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 1278.3333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 1269.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 1251.0
+--- data.004.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1412.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 1426.6666666666667
+SIMULATED ANNEALING cooling 0.95 average cmax: 1382.3333333333333
+SIMULATED ANNEALING cooling 0.99 average cmax: 1318.3333333333333
+--- data.070.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 5646.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 5518.666666666667
+SIMULATED ANNEALING cooling 0.95 average cmax: 5422.333333333333
+SIMULATED ANNEALING cooling 0.99 average cmax: 5421.333333333333
+--- data.054.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 4356.666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 4260.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 4196.666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 4004.0
+--- data.089.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 7402.666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 7235.333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 7092.333333333333
+SIMULATED ANNEALING cooling 0.99 average cmax: 6830.666666666667
+--- data.012.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1822.3333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 1810.6666666666667
+SIMULATED ANNEALING cooling 0.95 average cmax: 1772.3333333333333
+SIMULATED ANNEALING cooling 0.99 average cmax: 1714.3333333333333
+--- data.044.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 3527.6666666666665
+SIMULATED ANNEALING cooling 0.9 average cmax: 3392.6666666666665
+SIMULATED ANNEALING cooling 0.95 average cmax: 3333.3333333333335
+SIMULATED ANNEALING cooling 0.99 average cmax: 3198.6666666666665
+--- data.001.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1341.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 1356.3333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 1306.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 1297.0
+--- data.030.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2400.6666666666665
+SIMULATED ANNEALING cooling 0.9 average cmax: 2337.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 2337.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 2299.0
+--- data.018.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1686.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 1678.3333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 1660.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 1579.0
+--- data.067.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 5520.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 5487.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 5376.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 5337.666666666667
+--- data.024.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2448.3333333333335
+SIMULATED ANNEALING cooling 0.9 average cmax: 2377.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 2353.6666666666665
+SIMULATED ANNEALING cooling 0.99 average cmax: 2283.0
+--- data.031.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2937.6666666666665
+SIMULATED ANNEALING cooling 0.9 average cmax: 2848.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 2767.3333333333335
+SIMULATED ANNEALING cooling 0.99 average cmax: 2745.3333333333335
+--- data.023.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2486.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 2489.3333333333335
+SIMULATED ANNEALING cooling 0.95 average cmax: 2431.3333333333335
+SIMULATED ANNEALING cooling 0.99 average cmax: 2405.0
+--- data.005.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1343.3333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 1334.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 1297.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 1252.6666666666667
+--- data.084.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 7143.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 7097.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 7073.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 6780.666666666667
+--- data.016.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1550.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 1526.3333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 1495.6666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 1447.0
+--- data.064.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 5231.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 5207.333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 5099.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 5051.666666666667
+--- data.021.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2487.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 2443.3333333333335
+SIMULATED ANNEALING cooling 0.95 average cmax: 2402.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 2396.0
+--- data.087.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 7279.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 7160.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 7114.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 6885.666666666667
+--- data.081.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 7192.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 7154.666666666667
+SIMULATED ANNEALING cooling 0.95 average cmax: 6959.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 6802.666666666667
+--- data.049.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 3340.6666666666665
+SIMULATED ANNEALING cooling 0.9 average cmax: 3250.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 3154.6666666666665
+SIMULATED ANNEALING cooling 0.99 average cmax: 3063.6666666666665
+--- data.083.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 7261.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 7222.666666666667
+SIMULATED ANNEALING cooling 0.95 average cmax: 7036.333333333333
+SIMULATED ANNEALING cooling 0.99 average cmax: 6792.666666666667
+--- data.000.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 32.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 32.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 32.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 32.0
+--- data.017.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1655.6666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 1601.3333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 1587.6666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 1545.6666666666667
+--- data.047.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 3489.6666666666665
+SIMULATED ANNEALING cooling 0.9 average cmax: 3454.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 3373.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 3295.3333333333335
+--- data.058.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 4342.666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 4225.333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 4137.666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 4023.3333333333335
+--- data.032.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 3062.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 2957.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 2924.3333333333335
+SIMULATED ANNEALING cooling 0.99 average cmax: 2898.0
+--- data.046.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 3374.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 3333.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 3271.6666666666665
+SIMULATED ANNEALING cooling 0.99 average cmax: 3186.6666666666665
+--- data.002.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1438.3333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 1412.3333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 1385.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 1369.0
+--- data.053.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 4349.0
+SIMULATED ANNEALING cooling 0.9 average cmax: 4316.666666666667
+SIMULATED ANNEALING cooling 0.95 average cmax: 4147.666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 3968.3333333333335
+--- data.086.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 7547.666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 7353.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 7214.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 6900.0
+--- data.085.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 7338.333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 7275.333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 7110.333333333333
+SIMULATED ANNEALING cooling 0.99 average cmax: 6906.333333333333
+--- data.035.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 3028.6666666666665
+SIMULATED ANNEALING cooling 0.9 average cmax: 2977.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 2955.6666666666665
+SIMULATED ANNEALING cooling 0.99 average cmax: 2900.6666666666665
+--- data.057.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 4398.666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 4258.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 4140.666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 3989.0
+--- data.009.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1352.6666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 1314.3333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 1285.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 1259.3333333333333
+--- data.061.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 5709.333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 5642.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 5562.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 5527.666666666667
+--- data.041.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 3446.6666666666665
+SIMULATED ANNEALING cooling 0.9 average cmax: 3395.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 3306.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 3216.0
+--- data.099.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 11689.666666666666
+SIMULATED ANNEALING cooling 0.9 average cmax: 11281.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 11158.666666666666
+SIMULATED ANNEALING cooling 0.99 average cmax: 10833.666666666666
+--- data.045.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 3504.3333333333335
+SIMULATED ANNEALING cooling 0.9 average cmax: 3366.3333333333335
+SIMULATED ANNEALING cooling 0.95 average cmax: 3285.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 3197.0
+--- data.022.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2322.6666666666665
+SIMULATED ANNEALING cooling 0.9 average cmax: 2265.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 2193.3333333333335
+SIMULATED ANNEALING cooling 0.99 average cmax: 2156.3333333333335
+--- data.013.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 1693.6666666666667
+SIMULATED ANNEALING cooling 0.9 average cmax: 1627.3333333333333
+SIMULATED ANNEALING cooling 0.95 average cmax: 1570.6666666666667
+SIMULATED ANNEALING cooling 0.99 average cmax: 1549.6666666666667
+--- data.068.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 5375.333333333333
+SIMULATED ANNEALING cooling 0.9 average cmax: 5294.0
+SIMULATED ANNEALING cooling 0.95 average cmax: 5203.0
+SIMULATED ANNEALING cooling 0.99 average cmax: 5153.666666666667
+--- data.025.txt ---
+SIMULATED ANNEALING cooling 0.8 average cmax:: 2490.6666666666665
+SIMULATED ANNEALING cooling 0.9 average cmax: 2476.3333333333335
+SIMULATED ANNEALING cooling 0.95 average cmax: 2439.6666666666665
+SIMULATED ANNEALING cooling 0.99 average cmax: 2351.0

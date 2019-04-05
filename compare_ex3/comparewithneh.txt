@@ -1,0 +1,400 @@
+--- data.014.txt ---
+NEH cmax: 1439
+SIMULATED ANNEALING average cmax: 1429.6666666666667
+Order compatibility: False
+--- data.077.txt ---
+NEH cmax: 5704
+SIMULATED ANNEALING average cmax: 5740.0
+Order compatibility: False
+--- data.059.txt ---
+NEH cmax: 3952
+SIMULATED ANNEALING average cmax: 3965.3333333333335
+Order compatibility: True
+--- data.080.txt ---
+NEH cmax: 5918
+SIMULATED ANNEALING average cmax: 5949.666666666667
+Order compatibility: False
+--- data.062.txt ---
+NEH cmax: 5348
+SIMULATED ANNEALING average cmax: 5335.0
+Order compatibility: False
+--- data.082.txt ---
+NEH cmax: 6523
+SIMULATED ANNEALING average cmax: 6569.666666666667
+Order compatibility: False
+--- data.098.txt ---
+NEH cmax: 10829
+SIMULATED ANNEALING average cmax: 10836.666666666666
+Order compatibility: False
+--- data.074.txt ---
+NEH cmax: 5929
+SIMULATED ANNEALING average cmax: 5955.333333333333
+Order compatibility: False
+--- data.097.txt ---
+NEH cmax: 10989
+SIMULATED ANNEALING average cmax: 11000.333333333334
+Order compatibility: False
+--- data.096.txt ---
+NEH cmax: 10458
+SIMULATED ANNEALING average cmax: 10472.666666666666
+Order compatibility: False
+--- data.008.txt ---
+NEH cmax: 1223
+SIMULATED ANNEALING average cmax: 1236.3333333333333
+Order compatibility: True
+--- data.048.txt ---
+NEH cmax: 3123
+SIMULATED ANNEALING average cmax: 3136.6666666666665
+Order compatibility: False
+--- data.076.txt ---
+NEH cmax: 5375
+SIMULATED ANNEALING average cmax: 5378.0
+Order compatibility: False
+--- data.037.txt ---
+NEH cmax: 2758
+SIMULATED ANNEALING average cmax: 2783.0
+Order compatibility: False
+--- data.036.txt ---
+NEH cmax: 2850
+SIMULATED ANNEALING average cmax: 2856.6666666666665
+Order compatibility: False
+--- data.034.txt ---
+NEH cmax: 2782
+SIMULATED ANNEALING average cmax: 2785.0
+Order compatibility: False
+--- data.039.txt ---
+NEH cmax: 2576
+SIMULATED ANNEALING average cmax: 2582.3333333333335
+Order compatibility: False
+--- data.026.txt ---
+NEH cmax: 2349
+SIMULATED ANNEALING average cmax: 2353.3333333333335
+Order compatibility: False
+--- data.066.txt ---
+NEH cmax: 5139
+SIMULATED ANNEALING average cmax: 5139.0
+Order compatibility: False
+--- data.006.txt ---
+NEH cmax: 1228
+SIMULATED ANNEALING average cmax: 1241.3333333333333
+Order compatibility: False
+--- data.063.txt ---
+NEH cmax: 5219
+SIMULATED ANNEALING average cmax: 5223.666666666667
+Order compatibility: False
+--- data.075.txt ---
+NEH cmax: 5679
+SIMULATED ANNEALING average cmax: 5691.0
+Order compatibility: False
+--- data.088.txt ---
+NEH cmax: 6739
+SIMULATED ANNEALING average cmax: 6739.0
+Order compatibility: True
+--- data.072.txt ---
+NEH cmax: 5453
+SIMULATED ANNEALING average cmax: 5529.333333333333
+Order compatibility: False
+--- data.092.txt ---
+NEH cmax: 10716
+SIMULATED ANNEALING average cmax: 10729.0
+Order compatibility: False
+--- data.011.txt ---
+NEH cmax: 1680
+SIMULATED ANNEALING average cmax: 1683.0
+Order compatibility: False
+--- data.073.txt ---
+NEH cmax: 5824
+SIMULATED ANNEALING average cmax: 5821.666666666667
+Order compatibility: False
+--- data.042.txt ---
+NEH cmax: 3032
+SIMULATED ANNEALING average cmax: 3035.0
+Order compatibility: False
+--- data.065.txt ---
+NEH cmax: 5266
+SIMULATED ANNEALING average cmax: 5264.333333333333
+Order compatibility: False
+--- data.040.txt ---
+NEH cmax: 2790
+SIMULATED ANNEALING average cmax: 2791.3333333333335
+Order compatibility: False
+--- data.060.txt ---
+NEH cmax: 4079
+SIMULATED ANNEALING average cmax: 4091.0
+Order compatibility: False
+--- data.029.txt ---
+NEH cmax: 2320
+SIMULATED ANNEALING average cmax: 2337.6666666666665
+Order compatibility: False
+--- data.038.txt ---
+NEH cmax: 2721
+SIMULATED ANNEALING average cmax: 2725.3333333333335
+Order compatibility: False
+--- data.020.txt ---
+NEH cmax: 1653
+SIMULATED ANNEALING average cmax: 1668.6666666666667
+Order compatibility: False
+--- data.027.txt ---
+NEH cmax: 2362
+SIMULATED ANNEALING average cmax: 2384.0
+Order compatibility: False
+--- data.071.txt ---
+NEH cmax: 5846
+SIMULATED ANNEALING average cmax: 5870.666666666667
+Order compatibility: False
+--- data.028.txt ---
+NEH cmax: 2249
+SIMULATED ANNEALING average cmax: 2249.3333333333335
+Order compatibility: True
+--- data.078.txt ---
+NEH cmax: 5760
+SIMULATED ANNEALING average cmax: 5773.333333333333
+Order compatibility: False
+--- data.003.txt ---
+NEH cmax: 1159
+SIMULATED ANNEALING average cmax: 1151.6666666666667
+Order compatibility: False
+--- data.019.txt ---
+NEH cmax: 1647
+SIMULATED ANNEALING average cmax: 1647.0
+Order compatibility: False
+--- data.094.txt ---
+NEH cmax: 11057
+SIMULATED ANNEALING average cmax: 11101.333333333334
+Order compatibility: False
+--- data.095.txt ---
+NEH cmax: 10645
+SIMULATED ANNEALING average cmax: 10647.666666666666
+Order compatibility: False
+--- data.051.txt ---
+NEH cmax: 4082
+SIMULATED ANNEALING average cmax: 4080.3333333333335
+Order compatibility: False
+--- data.052.txt ---
+NEH cmax: 3921
+SIMULATED ANNEALING average cmax: 3951.3333333333335
+Order compatibility: False
+--- data.055.txt ---
+NEH cmax: 3835
+SIMULATED ANNEALING average cmax: 3835.0
+Order compatibility: False
+--- data.050.txt ---
+NEH cmax: 3257
+SIMULATED ANNEALING average cmax: 3281.3333333333335
+Order compatibility: False
+--- data.056.txt ---
+NEH cmax: 3914
+SIMULATED ANNEALING average cmax: 3945.0
+Order compatibility: False
+--- data.043.txt ---
+NEH cmax: 2986
+SIMULATED ANNEALING average cmax: 3039.3333333333335
+Order compatibility: False
+--- data.069.txt ---
+NEH cmax: 5489
+SIMULATED ANNEALING average cmax: 5496.333333333333
+Order compatibility: False
+--- data.010.txt ---
+NEH cmax: 1151
+SIMULATED ANNEALING average cmax: 1145.0
+Order compatibility: True
+--- data.093.txt ---
+NEH cmax: 11025
+SIMULATED ANNEALING average cmax: 11033.333333333334
+Order compatibility: False
+--- data.033.txt ---
+NEH cmax: 2640
+SIMULATED ANNEALING average cmax: 2647.3333333333335
+Order compatibility: False
+--- data.015.txt ---
+NEH cmax: 1502
+SIMULATED ANNEALING average cmax: 1522.6666666666667
+Order compatibility: False
+--- data.079.txt ---
+NEH cmax: 6032
+SIMULATED ANNEALING average cmax: 6057.666666666667
+Order compatibility: False
+--- data.091.txt ---
+NEH cmax: 10942
+SIMULATED ANNEALING average cmax: 10954.666666666666
+Order compatibility: False
+--- data.090.txt ---
+NEH cmax: 6677
+SIMULATED ANNEALING average cmax: 6734.0
+Order compatibility: False
+--- data.007.txt ---
+NEH cmax: 1278
+SIMULATED ANNEALING average cmax: 1253.0
+Order compatibility: False
+--- data.004.txt ---
+NEH cmax: 1325
+SIMULATED ANNEALING average cmax: 1339.0
+Order compatibility: False
+--- data.070.txt ---
+NEH cmax: 5341
+SIMULATED ANNEALING average cmax: 5368.666666666667
+Order compatibility: False
+--- data.054.txt ---
+NEH cmax: 3969
+SIMULATED ANNEALING average cmax: 4015.0
+Order compatibility: True
+--- data.089.txt ---
+NEH cmax: 6677
+SIMULATED ANNEALING average cmax: 6716.0
+Order compatibility: False
+--- data.012.txt ---
+NEH cmax: 1729
+SIMULATED ANNEALING average cmax: 1739.6666666666667
+Order compatibility: False
+--- data.044.txt ---
+NEH cmax: 3198
+SIMULATED ANNEALING average cmax: 3196.3333333333335
+Order compatibility: False
+--- data.001.txt ---
+NEH cmax: 1286
+SIMULATED ANNEALING average cmax: 1308.3333333333333
+Order compatibility: False
+--- data.030.txt ---
+NEH cmax: 2277
+SIMULATED ANNEALING average cmax: 2286.3333333333335
+Order compatibility: True
+--- data.018.txt ---
+NEH cmax: 1609
+SIMULATED ANNEALING average cmax: 1624.0
+Order compatibility: True
+--- data.067.txt ---
+NEH cmax: 5259
+SIMULATED ANNEALING average cmax: 5260.0
+Order compatibility: False
+--- data.024.txt ---
+NEH cmax: 2262
+SIMULATED ANNEALING average cmax: 2288.3333333333335
+Order compatibility: False
+--- data.031.txt ---
+NEH cmax: 2733
+SIMULATED ANNEALING average cmax: 2731.6666666666665
+Order compatibility: False
+--- data.023.txt ---
+NEH cmax: 2411
+SIMULATED ANNEALING average cmax: 2397.6666666666665
+Order compatibility: False
+--- data.005.txt ---
+NEH cmax: 1305
+SIMULATED ANNEALING average cmax: 1298.6666666666667
+Order compatibility: False
+--- data.084.txt ---
+NEH cmax: 6557
+SIMULATED ANNEALING average cmax: 6578.0
+Order compatibility: False
+--- data.016.txt ---
+NEH cmax: 1453
+SIMULATED ANNEALING average cmax: 1472.3333333333333
+Order compatibility: False
+--- data.064.txt ---
+NEH cmax: 5023
+SIMULATED ANNEALING average cmax: 5026.333333333333
+Order compatibility: False
+--- data.021.txt ---
+NEH cmax: 2410
+SIMULATED ANNEALING average cmax: 2430.3333333333335
+Order compatibility: False
+--- data.087.txt ---
+NEH cmax: 6632
+SIMULATED ANNEALING average cmax: 6678.333333333333
+Order compatibility: False
+--- data.081.txt ---
+NEH cmax: 6541
+SIMULATED ANNEALING average cmax: 6598.0
+Order compatibility: False
+--- data.049.txt ---
+NEH cmax: 3002
+SIMULATED ANNEALING average cmax: 3031.3333333333335
+Order compatibility: False
+--- data.083.txt ---
+NEH cmax: 6639
+SIMULATED ANNEALING average cmax: 6662.666666666667
+Order compatibility: False
+--- data.000.txt ---
+NEH cmax: 32
+SIMULATED ANNEALING average cmax: 32.0
+Order compatibility: True
+--- data.017.txt ---
+NEH cmax: 1562
+SIMULATED ANNEALING average cmax: 1555.6666666666667
+Order compatibility: False
+--- data.047.txt ---
+NEH cmax: 3277
+SIMULATED ANNEALING average cmax: 3285.0
+Order compatibility: False
+--- data.058.txt ---
+NEH cmax: 3938
+SIMULATED ANNEALING average cmax: 3984.6666666666665
+Order compatibility: False
+--- data.032.txt ---
+NEH cmax: 2843
+SIMULATED ANNEALING average cmax: 2844.6666666666665
+Order compatibility: False
+--- data.046.txt ---
+NEH cmax: 3178
+SIMULATED ANNEALING average cmax: 3180.6666666666665
+Order compatibility: False
+--- data.002.txt ---
+NEH cmax: 1365
+SIMULATED ANNEALING average cmax: 1396.3333333333333
+Order compatibility: False
+--- data.053.txt ---
+NEH cmax: 3927
+SIMULATED ANNEALING average cmax: 3937.6666666666665
+Order compatibility: False
+--- data.086.txt ---
+NEH cmax: 6664
+SIMULATED ANNEALING average cmax: 6664.0
+Order compatibility: False
+--- data.085.txt ---
+NEH cmax: 6695
+SIMULATED ANNEALING average cmax: 6729.0
+Order compatibility: True
+--- data.035.txt ---
+NEH cmax: 2868
+SIMULATED ANNEALING average cmax: 2914.3333333333335
+Order compatibility: False
+--- data.057.txt ---
+NEH cmax: 3952
+SIMULATED ANNEALING average cmax: 3969.6666666666665
+Order compatibility: False
+--- data.009.txt ---
+NEH cmax: 1291
+SIMULATED ANNEALING average cmax: 1289.0
+Order compatibility: False
+--- data.061.txt ---
+NEH cmax: 5519
+SIMULATED ANNEALING average cmax: 5519.0
+Order compatibility: False
+--- data.041.txt ---
+NEH cmax: 3135
+SIMULATED ANNEALING average cmax: 3166.0
+Order compatibility: False
+--- data.099.txt ---
+NEH cmax: 10574
+SIMULATED ANNEALING average cmax: 10575.333333333334
+Order compatibility: False
+--- data.045.txt ---
+NEH cmax: 3160
+SIMULATED ANNEALING average cmax: 3166.3333333333335
+Order compatibility: False
+--- data.022.txt ---
+NEH cmax: 2150
+SIMULATED ANNEALING average cmax: 2179.0
+Order compatibility: True
+--- data.013.txt ---
+NEH cmax: 1557
+SIMULATED ANNEALING average cmax: 1581.6666666666667
+Order compatibility: False
+--- data.068.txt ---
+NEH cmax: 5120
+SIMULATED ANNEALING average cmax: 5121.0
+Order compatibility: False
+--- data.025.txt ---
+NEH cmax: 2397
+SIMULATED ANNEALING average cmax: 2395.3333333333335
+Order compatibility: False
