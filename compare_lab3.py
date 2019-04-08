@@ -16,7 +16,7 @@ compares different methods:
 -compareinsertswap - compares neigbour generation methods, returns cmaxes for datasets and checks if optimal orders are compatible
 -comparecoolingoption - compares cooling forms(temprature and iteration), returns cmaxes for datasets and checks if optimal orders are compatible
 -comparecooling - compares cooling factors, returns cmaxes for datasets
--comparemove - compares classic method with method which rejects prob=1 for new better cmaxes, returns cmaxes for datasets and checks if optimal orders are compatible
+-comparemove - compares classic method with method which always calculates prob from exponent formula, returns cmaxes for datasets and checks if optimal orders are compatible
 -comparemovewithonlydiff - compares classic method with method which checks only different cmaxes, returns cmaxes for datasets and checks if optimal orders are compatible
 -comparestart - compares start orders - neh_prio and neh_result, returns cmaxes for datasets and checks if optimal orders are compatible
 
@@ -156,10 +156,10 @@ elif args.option == 'comparemove':
                 with_reject_cmaxes = []
                 with_reject_queues = []
                 for i in range(3):
-                    wo_queue, wo_cmax = instance.simulated_annealing(50, instance.neh_prio, 0.000001, 0.8, 'swap')
+                    wo_queue, wo_cmax = instance.simulated_annealing(50, instance.neh_prio, 0.2, 0.8, 'swap')
                     without_reject_cmaxes.append(wo_cmax)
                     without_reject_queues.append(wo_queue)
-                    w_queue, w_cmax = instance.simulated_annealing_reject_prob(50, instance.neh_prio, 0.000001, 0.8, 'swap')
+                    w_queue, w_cmax = instance.simulated_annealing_reject_prob(50, instance.neh_prio, 0.2, 0.8, 'swap')
                     with_reject_cmaxes.append(w_cmax)
                     with_reject_queues.append(w_queue)
                 w_cmax_avg = sum(with_reject_cmaxes)/len(with_reject_cmaxes)
@@ -169,8 +169,8 @@ elif args.option == 'comparemove':
                 else:
                     compatibility = False
                 file.write("--- {} ---\n".format(filename))
-                file.write("SIMULATED ANNEALING with reject option cmax: {}\n".format(w_cmax_avg))
-                file.write("SIMULATED ANNEALING without reject option cmax: {}\n".format(wo_cmax_avg))
+                file.write("SIMULATED ANNEALING without prob=1 cmax: {}\n".format(w_cmax_avg))
+                file.write("SIMULATED ANNEALING with prob=1 cmax: {}\n".format(wo_cmax_avg))
                 file.write("Order compatibility: {}\n".format(compatibility))
         print("INFO: Finished!")
 

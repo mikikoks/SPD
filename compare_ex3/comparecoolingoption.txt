@@ -1,400 +1,484 @@
---- data.014.txt ---
-SIMULATED ANNEALING cool option cmax: 1518.6666666666667
-SIMULATED ANNEALING iter option cmax: 1746.6666666666667
-Order compatibility: False
---- data.077.txt ---
-SIMULATED ANNEALING cool option cmax: 6255.0
-SIMULATED ANNEALING iter option cmax: 6738.0
-Order compatibility: False
---- data.059.txt ---
-SIMULATED ANNEALING cool option cmax: 4342.333333333333
-SIMULATED ANNEALING iter option cmax: 4618.0
-Order compatibility: False
---- data.080.txt ---
-SIMULATED ANNEALING cool option cmax: 6400.666666666667
-SIMULATED ANNEALING iter option cmax: 6700.0
-Order compatibility: False
---- data.062.txt ---
-SIMULATED ANNEALING cool option cmax: 5523.666666666667
-SIMULATED ANNEALING iter option cmax: 5759.0
-Order compatibility: False
---- data.082.txt ---
-SIMULATED ANNEALING cool option cmax: 7289.666666666667
-SIMULATED ANNEALING iter option cmax: 7641.333333333333
-Order compatibility: False
---- data.098.txt ---
-SIMULATED ANNEALING cool option cmax: 11725.666666666666
-SIMULATED ANNEALING iter option cmax: 12335.333333333334
-Order compatibility: False
---- data.074.txt ---
-SIMULATED ANNEALING cool option cmax: 6513.666666666667
-SIMULATED ANNEALING iter option cmax: 6915.0
-Order compatibility: False
---- data.097.txt ---
-SIMULATED ANNEALING cool option cmax: 11836.0
-SIMULATED ANNEALING iter option cmax: 12277.666666666666
-Order compatibility: False
---- data.096.txt ---
-SIMULATED ANNEALING cool option cmax: 11517.333333333334
-SIMULATED ANNEALING iter option cmax: 12195.666666666666
-Order compatibility: False
---- data.008.txt ---
-SIMULATED ANNEALING cool option cmax: 1372.0
-SIMULATED ANNEALING iter option cmax: 1553.0
-Order compatibility: False
---- data.048.txt ---
-SIMULATED ANNEALING cool option cmax: 3439.3333333333335
-SIMULATED ANNEALING iter option cmax: 3809.3333333333335
-Order compatibility: False
---- data.076.txt ---
-SIMULATED ANNEALING cool option cmax: 5995.666666666667
-SIMULATED ANNEALING iter option cmax: 6470.0
-Order compatibility: False
---- data.037.txt ---
-SIMULATED ANNEALING cool option cmax: 2954.3333333333335
-SIMULATED ANNEALING iter option cmax: 3264.3333333333335
+--- data.108.txt ---
+SIMULATED ANNEALING cool option cmax: 13206.666666666666
+SIMULATED ANNEALING iter option cmax: 12922.333333333334
 Order compatibility: False
 --- data.036.txt ---
-SIMULATED ANNEALING cool option cmax: 3059.6666666666665
-SIMULATED ANNEALING iter option cmax: 3445.6666666666665
+SIMULATED ANNEALING cool option cmax: 3026.6666666666665
+SIMULATED ANNEALING iter option cmax: 3002.3333333333335
 Order compatibility: False
---- data.034.txt ---
-SIMULATED ANNEALING cool option cmax: 2971.0
-SIMULATED ANNEALING iter option cmax: 3132.3333333333335
-Order compatibility: False
---- data.039.txt ---
-SIMULATED ANNEALING cool option cmax: 2716.3333333333335
-SIMULATED ANNEALING iter option cmax: 2853.6666666666665
-Order compatibility: False
---- data.026.txt ---
-SIMULATED ANNEALING cool option cmax: 2467.3333333333335
-SIMULATED ANNEALING iter option cmax: 2707.3333333333335
-Order compatibility: False
---- data.066.txt ---
-SIMULATED ANNEALING cool option cmax: 5416.0
-SIMULATED ANNEALING iter option cmax: 5768.333333333333
-Order compatibility: False
---- data.006.txt ---
-SIMULATED ANNEALING cool option cmax: 1315.3333333333333
-SIMULATED ANNEALING iter option cmax: 1571.3333333333333
-Order compatibility: False
---- data.063.txt ---
-SIMULATED ANNEALING cool option cmax: 5490.666666666667
-SIMULATED ANNEALING iter option cmax: 5899.333333333333
-Order compatibility: False
---- data.075.txt ---
-SIMULATED ANNEALING cool option cmax: 6166.666666666667
-SIMULATED ANNEALING iter option cmax: 6469.0
-Order compatibility: False
---- data.088.txt ---
-SIMULATED ANNEALING cool option cmax: 7546.0
-SIMULATED ANNEALING iter option cmax: 8063.0
-Order compatibility: False
---- data.072.txt ---
-SIMULATED ANNEALING cool option cmax: 6126.666666666667
-SIMULATED ANNEALING iter option cmax: 6681.666666666667
-Order compatibility: False
---- data.092.txt ---
-SIMULATED ANNEALING cool option cmax: 11811.666666666666
-SIMULATED ANNEALING iter option cmax: 12602.333333333334
-Order compatibility: False
---- data.011.txt ---
-SIMULATED ANNEALING cool option cmax: 1775.6666666666667
-SIMULATED ANNEALING iter option cmax: 1943.0
-Order compatibility: False
---- data.073.txt ---
-SIMULATED ANNEALING cool option cmax: 6358.0
-SIMULATED ANNEALING iter option cmax: 6802.666666666667
-Order compatibility: False
---- data.042.txt ---
-SIMULATED ANNEALING cool option cmax: 3388.6666666666665
-SIMULATED ANNEALING iter option cmax: 3775.3333333333335
-Order compatibility: False
---- data.065.txt ---
-SIMULATED ANNEALING cool option cmax: 5558.666666666667
-SIMULATED ANNEALING iter option cmax: 5895.666666666667
-Order compatibility: False
---- data.040.txt ---
-SIMULATED ANNEALING cool option cmax: 2996.0
-SIMULATED ANNEALING iter option cmax: 3126.0
-Order compatibility: False
---- data.060.txt ---
-SIMULATED ANNEALING cool option cmax: 4434.0
-SIMULATED ANNEALING iter option cmax: 4792.333333333333
-Order compatibility: False
---- data.029.txt ---
-SIMULATED ANNEALING cool option cmax: 2452.3333333333335
-SIMULATED ANNEALING iter option cmax: 2795.0
-Order compatibility: False
---- data.038.txt ---
-SIMULATED ANNEALING cool option cmax: 2913.3333333333335
-SIMULATED ANNEALING iter option cmax: 3351.0
-Order compatibility: False
---- data.020.txt ---
-SIMULATED ANNEALING cool option cmax: 1780.0
-SIMULATED ANNEALING iter option cmax: 2035.0
-Order compatibility: False
---- data.027.txt ---
-SIMULATED ANNEALING cool option cmax: 2484.0
-SIMULATED ANNEALING iter option cmax: 2803.3333333333335
-Order compatibility: False
---- data.071.txt ---
-SIMULATED ANNEALING cool option cmax: 6391.666666666667
-SIMULATED ANNEALING iter option cmax: 6789.666666666667
-Order compatibility: False
---- data.028.txt ---
-SIMULATED ANNEALING cool option cmax: 2375.3333333333335
-SIMULATED ANNEALING iter option cmax: 2617.3333333333335
-Order compatibility: False
---- data.078.txt ---
-SIMULATED ANNEALING cool option cmax: 6268.0
-SIMULATED ANNEALING iter option cmax: 6608.666666666667
-Order compatibility: False
---- data.003.txt ---
-SIMULATED ANNEALING cool option cmax: 1237.6666666666667
-SIMULATED ANNEALING iter option cmax: 1394.6666666666667
-Order compatibility: False
---- data.019.txt ---
-SIMULATED ANNEALING cool option cmax: 1765.6666666666667
-SIMULATED ANNEALING iter option cmax: 2007.6666666666667
-Order compatibility: False
---- data.094.txt ---
-SIMULATED ANNEALING cool option cmax: 11714.666666666666
-SIMULATED ANNEALING iter option cmax: 12069.0
-Order compatibility: False
---- data.095.txt ---
-SIMULATED ANNEALING cool option cmax: 11628.0
-SIMULATED ANNEALING iter option cmax: 12226.0
-Order compatibility: False
---- data.051.txt ---
-SIMULATED ANNEALING cool option cmax: 4552.0
-SIMULATED ANNEALING iter option cmax: 5027.666666666667
-Order compatibility: False
---- data.052.txt ---
-SIMULATED ANNEALING cool option cmax: 4293.0
-SIMULATED ANNEALING iter option cmax: 4647.333333333333
-Order compatibility: False
---- data.055.txt ---
-SIMULATED ANNEALING cool option cmax: 4340.666666666667
-SIMULATED ANNEALING iter option cmax: 4758.0
-Order compatibility: False
---- data.050.txt ---
-SIMULATED ANNEALING cool option cmax: 3501.6666666666665
-SIMULATED ANNEALING iter option cmax: 3888.6666666666665
-Order compatibility: False
---- data.056.txt ---
-SIMULATED ANNEALING cool option cmax: 4266.0
-SIMULATED ANNEALING iter option cmax: 4595.333333333333
-Order compatibility: False
---- data.043.txt ---
-SIMULATED ANNEALING cool option cmax: 3314.3333333333335
-SIMULATED ANNEALING iter option cmax: 3769.3333333333335
-Order compatibility: False
---- data.069.txt ---
-SIMULATED ANNEALING cool option cmax: 5787.333333333333
-SIMULATED ANNEALING iter option cmax: 6125.0
-Order compatibility: False
---- data.010.txt ---
-SIMULATED ANNEALING cool option cmax: 1202.0
-SIMULATED ANNEALING iter option cmax: 1343.6666666666667
-Order compatibility: False
---- data.093.txt ---
-SIMULATED ANNEALING cool option cmax: 11947.0
-SIMULATED ANNEALING iter option cmax: 12595.0
-Order compatibility: False
---- data.033.txt ---
-SIMULATED ANNEALING cool option cmax: 2822.3333333333335
-SIMULATED ANNEALING iter option cmax: 3054.3333333333335
-Order compatibility: False
---- data.015.txt ---
-SIMULATED ANNEALING cool option cmax: 1633.3333333333333
-SIMULATED ANNEALING iter option cmax: 1925.0
-Order compatibility: False
---- data.079.txt ---
-SIMULATED ANNEALING cool option cmax: 6428.0
-SIMULATED ANNEALING iter option cmax: 6716.333333333333
-Order compatibility: False
---- data.091.txt ---
-SIMULATED ANNEALING cool option cmax: 11821.333333333334
-SIMULATED ANNEALING iter option cmax: 12468.666666666666
-Order compatibility: False
---- data.090.txt ---
-SIMULATED ANNEALING cool option cmax: 7419.666666666667
-SIMULATED ANNEALING iter option cmax: 7840.333333333333
-Order compatibility: False
---- data.007.txt ---
-SIMULATED ANNEALING cool option cmax: 1283.0
-SIMULATED ANNEALING iter option cmax: 1466.6666666666667
-Order compatibility: False
---- data.004.txt ---
-SIMULATED ANNEALING cool option cmax: 1461.3333333333333
-SIMULATED ANNEALING iter option cmax: 1723.0
-Order compatibility: False
---- data.070.txt ---
-SIMULATED ANNEALING cool option cmax: 5621.0
-SIMULATED ANNEALING iter option cmax: 5935.0
-Order compatibility: False
---- data.054.txt ---
-SIMULATED ANNEALING cool option cmax: 4398.0
-SIMULATED ANNEALING iter option cmax: 4869.666666666667
-Order compatibility: False
---- data.089.txt ---
-SIMULATED ANNEALING cool option cmax: 7469.333333333333
-SIMULATED ANNEALING iter option cmax: 7948.666666666667
-Order compatibility: False
---- data.012.txt ---
-SIMULATED ANNEALING cool option cmax: 1827.3333333333333
-SIMULATED ANNEALING iter option cmax: 2031.3333333333333
-Order compatibility: False
---- data.044.txt ---
-SIMULATED ANNEALING cool option cmax: 3537.0
-SIMULATED ANNEALING iter option cmax: 4003.6666666666665
+--- data.109.txt ---
+SIMULATED ANNEALING cool option cmax: 12995.666666666666
+SIMULATED ANNEALING iter option cmax: 12844.0
 Order compatibility: False
 --- data.001.txt ---
-SIMULATED ANNEALING cool option cmax: 1375.6666666666667
-SIMULATED ANNEALING iter option cmax: 1540.3333333333333
+SIMULATED ANNEALING cool option cmax: 1340.6666666666667
+SIMULATED ANNEALING iter option cmax: 1333.3333333333333
 Order compatibility: False
---- data.030.txt ---
-SIMULATED ANNEALING cool option cmax: 2428.6666666666665
-SIMULATED ANNEALING iter option cmax: 2584.0
+--- data.071.txt ---
+SIMULATED ANNEALING cool option cmax: 6469.666666666667
+SIMULATED ANNEALING iter option cmax: 6374.666666666667
 Order compatibility: False
---- data.018.txt ---
-SIMULATED ANNEALING cool option cmax: 1717.6666666666667
-SIMULATED ANNEALING iter option cmax: 1996.6666666666667
+--- data.003.txt ---
+SIMULATED ANNEALING cool option cmax: 1235.6666666666667
+SIMULATED ANNEALING iter option cmax: 1214.6666666666667
 Order compatibility: False
---- data.067.txt ---
-SIMULATED ANNEALING cool option cmax: 5491.0
-SIMULATED ANNEALING iter option cmax: 6038.666666666667
+--- data.070.txt ---
+SIMULATED ANNEALING cool option cmax: 5566.333333333333
+SIMULATED ANNEALING iter option cmax: 5500.666666666667
 Order compatibility: False
---- data.024.txt ---
-SIMULATED ANNEALING cool option cmax: 2412.6666666666665
-SIMULATED ANNEALING iter option cmax: 2722.6666666666665
+--- data.020.txt ---
+SIMULATED ANNEALING cool option cmax: 1775.3333333333333
+SIMULATED ANNEALING iter option cmax: 1706.3333333333333
 Order compatibility: False
---- data.031.txt ---
-SIMULATED ANNEALING cool option cmax: 2836.3333333333335
-SIMULATED ANNEALING iter option cmax: 3106.3333333333335
+--- data.025.txt ---
+SIMULATED ANNEALING cool option cmax: 2519.3333333333335
+SIMULATED ANNEALING iter option cmax: 2439.3333333333335
 Order compatibility: False
---- data.023.txt ---
-SIMULATED ANNEALING cool option cmax: 2479.3333333333335
-SIMULATED ANNEALING iter option cmax: 2660.6666666666665
+--- data.052.txt ---
+SIMULATED ANNEALING cool option cmax: 4336.333333333333
+SIMULATED ANNEALING iter option cmax: 4173.333333333333
+Order compatibility: False
+--- data.041.txt ---
+SIMULATED ANNEALING cool option cmax: 3510.0
+SIMULATED ANNEALING iter option cmax: 3376.3333333333335
+Order compatibility: False
+--- data.096.txt ---
+SIMULATED ANNEALING cool option cmax: 11527.0
+SIMULATED ANNEALING iter option cmax: 11404.333333333334
+Order compatibility: False
+--- data.045.txt ---
+SIMULATED ANNEALING cool option cmax: 3526.6666666666665
+SIMULATED ANNEALING iter option cmax: 3410.0
+Order compatibility: False
+--- data.012.txt ---
+SIMULATED ANNEALING cool option cmax: 1825.6666666666667
+SIMULATED ANNEALING iter option cmax: 1804.6666666666667
 Order compatibility: False
 --- data.005.txt ---
-SIMULATED ANNEALING cool option cmax: 1347.3333333333333
-SIMULATED ANNEALING iter option cmax: 1601.0
+SIMULATED ANNEALING cool option cmax: 1334.6666666666667
+SIMULATED ANNEALING iter option cmax: 1309.6666666666667
 Order compatibility: False
---- data.084.txt ---
-SIMULATED ANNEALING cool option cmax: 7140.666666666667
-SIMULATED ANNEALING iter option cmax: 7439.666666666667
+--- data.050.txt ---
+SIMULATED ANNEALING cool option cmax: 3486.6666666666665
+SIMULATED ANNEALING iter option cmax: 3434.6666666666665
+Order compatibility: False
+--- data.113.txt ---
+SIMULATED ANNEALING cool option cmax: 29570.666666666668
+SIMULATED ANNEALING iter option cmax: 29286.333333333332
 Order compatibility: False
 --- data.016.txt ---
-SIMULATED ANNEALING cool option cmax: 1518.0
-SIMULATED ANNEALING iter option cmax: 1848.6666666666667
+SIMULATED ANNEALING cool option cmax: 1570.3333333333333
+SIMULATED ANNEALING iter option cmax: 1545.3333333333333
 Order compatibility: False
---- data.064.txt ---
-SIMULATED ANNEALING cool option cmax: 5257.333333333333
-SIMULATED ANNEALING iter option cmax: 5498.0
+--- data.053.txt ---
+SIMULATED ANNEALING cool option cmax: 4371.0
+SIMULATED ANNEALING iter option cmax: 4240.333333333333
 Order compatibility: False
---- data.021.txt ---
-SIMULATED ANNEALING cool option cmax: 2451.6666666666665
-SIMULATED ANNEALING iter option cmax: 2716.3333333333335
+--- data.008.txt ---
+SIMULATED ANNEALING cool option cmax: 1345.0
+SIMULATED ANNEALING iter option cmax: 1294.0
 Order compatibility: False
---- data.087.txt ---
-SIMULATED ANNEALING cool option cmax: 7253.333333333333
-SIMULATED ANNEALING iter option cmax: 7598.0
+--- data.076.txt ---
+SIMULATED ANNEALING cool option cmax: 6025.0
+SIMULATED ANNEALING iter option cmax: 5861.333333333333
+Order compatibility: False
+--- data.056.txt ---
+SIMULATED ANNEALING cool option cmax: 4267.666666666667
+SIMULATED ANNEALING iter option cmax: 4260.666666666667
+Order compatibility: False
+--- data.093.txt ---
+SIMULATED ANNEALING cool option cmax: 11875.0
+SIMULATED ANNEALING iter option cmax: 11733.0
+Order compatibility: False
+--- data.095.txt ---
+SIMULATED ANNEALING cool option cmax: 11662.666666666666
+SIMULATED ANNEALING iter option cmax: 11471.666666666666
+Order compatibility: False
+--- data.086.txt ---
+SIMULATED ANNEALING cool option cmax: 7475.333333333333
+SIMULATED ANNEALING iter option cmax: 7249.0
+Order compatibility: False
+--- data.065.txt ---
+SIMULATED ANNEALING cool option cmax: 5582.0
+SIMULATED ANNEALING iter option cmax: 5433.333333333333
+Order compatibility: False
+--- data.111.txt ---
+SIMULATED ANNEALING cool option cmax: 29575.666666666668
+SIMULATED ANNEALING iter option cmax: 29349.0
 Order compatibility: False
 --- data.081.txt ---
-SIMULATED ANNEALING cool option cmax: 7237.333333333333
-SIMULATED ANNEALING iter option cmax: 7573.666666666667
+SIMULATED ANNEALING cool option cmax: 7234.666666666667
+SIMULATED ANNEALING iter option cmax: 7117.333333333333
+Order compatibility: False
+--- data.120.txt ---
+SIMULATED ANNEALING cool option cmax: 30211.0
+SIMULATED ANNEALING iter option cmax: 29855.333333333332
 Order compatibility: False
 --- data.049.txt ---
-SIMULATED ANNEALING cool option cmax: 3308.3333333333335
-SIMULATED ANNEALING iter option cmax: 3652.0
+SIMULATED ANNEALING cool option cmax: 3298.6666666666665
+SIMULATED ANNEALING iter option cmax: 3228.6666666666665
+Order compatibility: False
+--- data.024.txt ---
+SIMULATED ANNEALING cool option cmax: 2431.3333333333335
+SIMULATED ANNEALING iter option cmax: 2413.3333333333335
+Order compatibility: False
+--- data.034.txt ---
+SIMULATED ANNEALING cool option cmax: 2981.6666666666665
+SIMULATED ANNEALING iter option cmax: 2893.6666666666665
+Order compatibility: False
+--- data.075.txt ---
+SIMULATED ANNEALING cool option cmax: 6192.0
+SIMULATED ANNEALING iter option cmax: 6014.333333333333
+Order compatibility: False
+--- data.059.txt ---
+SIMULATED ANNEALING cool option cmax: 4326.333333333333
+SIMULATED ANNEALING iter option cmax: 4239.333333333333
+Order compatibility: False
+--- data.098.txt ---
+SIMULATED ANNEALING cool option cmax: 11871.666666666666
+SIMULATED ANNEALING iter option cmax: 11694.333333333334
+Order compatibility: False
+--- data.038.txt ---
+SIMULATED ANNEALING cool option cmax: 2879.3333333333335
+SIMULATED ANNEALING iter option cmax: 2852.0
+Order compatibility: False
+--- data.063.txt ---
+SIMULATED ANNEALING cool option cmax: 5410.0
+SIMULATED ANNEALING iter option cmax: 5401.666666666667
+Order compatibility: False
+--- data.066.txt ---
+SIMULATED ANNEALING cool option cmax: 5363.333333333333
+SIMULATED ANNEALING iter option cmax: 5328.333333333333
+Order compatibility: False
+--- data.114.txt ---
+SIMULATED ANNEALING cool option cmax: 30133.333333333332
+SIMULATED ANNEALING iter option cmax: 29803.0
+Order compatibility: False
+--- data.055.txt ---
+SIMULATED ANNEALING cool option cmax: 4346.0
+SIMULATED ANNEALING iter option cmax: 4293.666666666667
+Order compatibility: False
+--- data.104.txt ---
+SIMULATED ANNEALING cool option cmax: 13176.666666666666
+SIMULATED ANNEALING iter option cmax: 13093.0
+Order compatibility: False
+--- data.017.txt ---
+SIMULATED ANNEALING cool option cmax: 1717.0
+SIMULATED ANNEALING iter option cmax: 1641.3333333333333
+Order compatibility: False
+--- data.026.txt ---
+SIMULATED ANNEALING cool option cmax: 2467.0
+SIMULATED ANNEALING iter option cmax: 2393.3333333333335
+Order compatibility: False
+--- data.094.txt ---
+SIMULATED ANNEALING cool option cmax: 11764.0
+SIMULATED ANNEALING iter option cmax: 11599.333333333334
+Order compatibility: False
+--- data.115.txt ---
+SIMULATED ANNEALING cool option cmax: 29593.333333333332
+SIMULATED ANNEALING iter option cmax: 29346.0
+Order compatibility: False
+--- data.103.txt ---
+SIMULATED ANNEALING cool option cmax: 13246.333333333334
+SIMULATED ANNEALING iter option cmax: 13023.333333333334
+Order compatibility: False
+--- data.117.txt ---
+SIMULATED ANNEALING cool option cmax: 29847.333333333332
+SIMULATED ANNEALING iter option cmax: 29390.666666666668
 Order compatibility: False
 --- data.083.txt ---
-SIMULATED ANNEALING cool option cmax: 7299.333333333333
-SIMULATED ANNEALING iter option cmax: 7698.0
+SIMULATED ANNEALING cool option cmax: 7303.666666666667
+SIMULATED ANNEALING iter option cmax: 7201.666666666667
+Order compatibility: False
+--- data.087.txt ---
+SIMULATED ANNEALING cool option cmax: 7255.333333333333
+SIMULATED ANNEALING iter option cmax: 7216.333333333333
+Order compatibility: False
+--- data.064.txt ---
+SIMULATED ANNEALING cool option cmax: 5252.0
+SIMULATED ANNEALING iter option cmax: 5190.333333333333
+Order compatibility: False
+--- data.069.txt ---
+SIMULATED ANNEALING cool option cmax: 5735.333333333333
+SIMULATED ANNEALING iter option cmax: 5643.333333333333
+Order compatibility: False
+--- data.019.txt ---
+SIMULATED ANNEALING cool option cmax: 1769.3333333333333
+SIMULATED ANNEALING iter option cmax: 1705.3333333333333
+Order compatibility: False
+--- data.100.txt ---
+SIMULATED ANNEALING cool option cmax: 11625.666666666666
+SIMULATED ANNEALING iter option cmax: 11440.0
+Order compatibility: False
+--- data.077.txt ---
+SIMULATED ANNEALING cool option cmax: 6219.0
+SIMULATED ANNEALING iter option cmax: 6070.0
+Order compatibility: False
+--- data.110.txt ---
+SIMULATED ANNEALING cool option cmax: 13222.0
+SIMULATED ANNEALING iter option cmax: 12974.0
+Order compatibility: False
+--- data.037.txt ---
+SIMULATED ANNEALING cool option cmax: 2892.0
+SIMULATED ANNEALING iter option cmax: 2869.0
+Order compatibility: False
+--- data.040.txt ---
+SIMULATED ANNEALING cool option cmax: 2937.3333333333335
+SIMULATED ANNEALING iter option cmax: 2913.6666666666665
+Order compatibility: False
+--- data.091.txt ---
+SIMULATED ANNEALING cool option cmax: 11796.0
+SIMULATED ANNEALING iter option cmax: 11665.333333333334
+Order compatibility: False
+--- data.030.txt ---
+SIMULATED ANNEALING cool option cmax: 2404.6666666666665
+SIMULATED ANNEALING iter option cmax: 2372.6666666666665
+Order compatibility: False
+--- data.002.txt ---
+SIMULATED ANNEALING cool option cmax: 1396.3333333333333
+SIMULATED ANNEALING iter option cmax: 1397.0
+Order compatibility: False
+--- data.082.txt ---
+SIMULATED ANNEALING cool option cmax: 7248.666666666667
+SIMULATED ANNEALING iter option cmax: 7145.0
+Order compatibility: False
+--- data.009.txt ---
+SIMULATED ANNEALING cool option cmax: 1357.3333333333333
+SIMULATED ANNEALING iter option cmax: 1328.0
+Order compatibility: False
+--- data.092.txt ---
+SIMULATED ANNEALING cool option cmax: 11896.666666666666
+SIMULATED ANNEALING iter option cmax: 11689.0
+Order compatibility: False
+--- data.116.txt ---
+SIMULATED ANNEALING cool option cmax: 30086.0
+SIMULATED ANNEALING iter option cmax: 29947.333333333332
+Order compatibility: False
+--- data.078.txt ---
+SIMULATED ANNEALING cool option cmax: 6296.0
+SIMULATED ANNEALING iter option cmax: 6162.333333333333
+Order compatibility: False
+--- data.051.txt ---
+SIMULATED ANNEALING cool option cmax: 4543.0
+SIMULATED ANNEALING iter option cmax: 4380.0
+Order compatibility: False
+--- data.047.txt ---
+SIMULATED ANNEALING cool option cmax: 3492.6666666666665
+SIMULATED ANNEALING iter option cmax: 3427.3333333333335
+Order compatibility: False
+--- data.107.txt ---
+SIMULATED ANNEALING cool option cmax: 13272.666666666666
+SIMULATED ANNEALING iter option cmax: 13125.0
+Order compatibility: False
+--- data.032.txt ---
+SIMULATED ANNEALING cool option cmax: 3032.3333333333335
+SIMULATED ANNEALING iter option cmax: 3002.0
+Order compatibility: False
+--- data.112.txt ---
+SIMULATED ANNEALING cool option cmax: 30091.666666666668
+SIMULATED ANNEALING iter option cmax: 29739.666666666668
+Order compatibility: False
+--- data.042.txt ---
+SIMULATED ANNEALING cool option cmax: 3367.3333333333335
+SIMULATED ANNEALING iter option cmax: 3248.3333333333335
+Order compatibility: False
+--- data.054.txt ---
+SIMULATED ANNEALING cool option cmax: 4381.666666666667
+SIMULATED ANNEALING iter option cmax: 4294.666666666667
+Order compatibility: False
+--- data.084.txt ---
+SIMULATED ANNEALING cool option cmax: 7244.333333333333
+SIMULATED ANNEALING iter option cmax: 7144.666666666667
+Order compatibility: False
+--- data.060.txt ---
+SIMULATED ANNEALING cool option cmax: 4451.666666666667
+SIMULATED ANNEALING iter option cmax: 4323.333333333333
+Order compatibility: False
+--- data.097.txt ---
+SIMULATED ANNEALING cool option cmax: 11834.666666666666
+SIMULATED ANNEALING iter option cmax: 11588.0
+Order compatibility: False
+--- data.102.txt ---
+SIMULATED ANNEALING cool option cmax: 12977.0
+SIMULATED ANNEALING iter option cmax: 12982.333333333334
+Order compatibility: False
+--- data.057.txt ---
+SIMULATED ANNEALING cool option cmax: 4390.333333333333
+SIMULATED ANNEALING iter option cmax: 4224.0
+Order compatibility: False
+--- data.018.txt ---
+SIMULATED ANNEALING cool option cmax: 1740.6666666666667
+SIMULATED ANNEALING iter option cmax: 1665.3333333333333
+Order compatibility: False
+--- data.058.txt ---
+SIMULATED ANNEALING cool option cmax: 4394.0
+SIMULATED ANNEALING iter option cmax: 4294.666666666667
+Order compatibility: False
+--- data.035.txt ---
+SIMULATED ANNEALING cool option cmax: 3059.3333333333335
+SIMULATED ANNEALING iter option cmax: 2984.3333333333335
+Order compatibility: False
+--- data.090.txt ---
+SIMULATED ANNEALING cool option cmax: 7397.333333333333
+SIMULATED ANNEALING iter option cmax: 7301.333333333333
+Order compatibility: False
+--- data.007.txt ---
+SIMULATED ANNEALING cool option cmax: 1325.6666666666667
+SIMULATED ANNEALING iter option cmax: 1299.6666666666667
+Order compatibility: False
+--- data.044.txt ---
+SIMULATED ANNEALING cool option cmax: 3547.6666666666665
+SIMULATED ANNEALING iter option cmax: 3405.0
+Order compatibility: False
+--- data.027.txt ---
+SIMULATED ANNEALING cool option cmax: 2493.0
+SIMULATED ANNEALING iter option cmax: 2423.0
+Order compatibility: False
+--- data.119.txt ---
+SIMULATED ANNEALING cool option cmax: 29440.333333333332
+SIMULATED ANNEALING iter option cmax: 29311.333333333332
+Order compatibility: False
+--- data.073.txt ---
+SIMULATED ANNEALING cool option cmax: 6274.0
+SIMULATED ANNEALING iter option cmax: 6123.0
+Order compatibility: False
+--- data.068.txt ---
+SIMULATED ANNEALING cool option cmax: 5454.0
+SIMULATED ANNEALING iter option cmax: 5300.666666666667
+Order compatibility: False
+--- data.080.txt ---
+SIMULATED ANNEALING cool option cmax: 6417.666666666667
+SIMULATED ANNEALING iter option cmax: 6352.666666666667
+Order compatibility: False
+--- data.061.txt ---
+SIMULATED ANNEALING cool option cmax: 5724.666666666667
+SIMULATED ANNEALING iter option cmax: 5641.0
+Order compatibility: False
+--- data.048.txt ---
+SIMULATED ANNEALING cool option cmax: 3383.0
+SIMULATED ANNEALING iter option cmax: 3395.3333333333335
+Order compatibility: False
+--- data.039.txt ---
+SIMULATED ANNEALING cool option cmax: 2725.3333333333335
+SIMULATED ANNEALING iter option cmax: 2681.6666666666665
 Order compatibility: False
 --- data.000.txt ---
 SIMULATED ANNEALING cool option cmax: 32.0
-SIMULATED ANNEALING iter option cmax: 40.333333333333336
+SIMULATED ANNEALING iter option cmax: 32.0
 Order compatibility: False
---- data.017.txt ---
-SIMULATED ANNEALING cool option cmax: 1647.6666666666667
-SIMULATED ANNEALING iter option cmax: 1902.6666666666667
+--- data.011.txt ---
+SIMULATED ANNEALING cool option cmax: 1757.3333333333333
+SIMULATED ANNEALING iter option cmax: 1703.0
 Order compatibility: False
---- data.047.txt ---
-SIMULATED ANNEALING cool option cmax: 3503.6666666666665
-SIMULATED ANNEALING iter option cmax: 3829.6666666666665
+--- data.023.txt ---
+SIMULATED ANNEALING cool option cmax: 2503.3333333333335
+SIMULATED ANNEALING iter option cmax: 2470.0
 Order compatibility: False
---- data.058.txt ---
-SIMULATED ANNEALING cool option cmax: 4354.0
-SIMULATED ANNEALING iter option cmax: 4743.0
+--- data.062.txt ---
+SIMULATED ANNEALING cool option cmax: 5497.0
+SIMULATED ANNEALING iter option cmax: 5490.666666666667
 Order compatibility: False
---- data.032.txt ---
-SIMULATED ANNEALING cool option cmax: 3062.3333333333335
-SIMULATED ANNEALING iter option cmax: 3224.3333333333335
-Order compatibility: False
---- data.046.txt ---
-SIMULATED ANNEALING cool option cmax: 3400.6666666666665
-SIMULATED ANNEALING iter option cmax: 3715.6666666666665
-Order compatibility: False
---- data.002.txt ---
-SIMULATED ANNEALING cool option cmax: 1430.6666666666667
-SIMULATED ANNEALING iter option cmax: 1579.0
-Order compatibility: False
---- data.053.txt ---
-SIMULATED ANNEALING cool option cmax: 4373.0
-SIMULATED ANNEALING iter option cmax: 4928.0
-Order compatibility: False
---- data.086.txt ---
-SIMULATED ANNEALING cool option cmax: 7487.666666666667
-SIMULATED ANNEALING iter option cmax: 8077.333333333333
-Order compatibility: False
---- data.085.txt ---
-SIMULATED ANNEALING cool option cmax: 7355.333333333333
-SIMULATED ANNEALING iter option cmax: 7786.333333333333
-Order compatibility: False
---- data.035.txt ---
-SIMULATED ANNEALING cool option cmax: 3041.6666666666665
-SIMULATED ANNEALING iter option cmax: 3183.3333333333335
-Order compatibility: False
---- data.057.txt ---
-SIMULATED ANNEALING cool option cmax: 4346.333333333333
-SIMULATED ANNEALING iter option cmax: 4768.666666666667
-Order compatibility: False
---- data.009.txt ---
-SIMULATED ANNEALING cool option cmax: 1329.0
-SIMULATED ANNEALING iter option cmax: 1547.6666666666667
-Order compatibility: False
---- data.061.txt ---
-SIMULATED ANNEALING cool option cmax: 5749.0
-SIMULATED ANNEALING iter option cmax: 5946.333333333333
-Order compatibility: False
---- data.041.txt ---
-SIMULATED ANNEALING cool option cmax: 3471.3333333333335
-SIMULATED ANNEALING iter option cmax: 3962.0
-Order compatibility: False
---- data.099.txt ---
-SIMULATED ANNEALING cool option cmax: 11636.666666666666
-SIMULATED ANNEALING iter option cmax: 12361.666666666666
-Order compatibility: False
---- data.045.txt ---
-SIMULATED ANNEALING cool option cmax: 3492.3333333333335
-SIMULATED ANNEALING iter option cmax: 4010.3333333333335
+--- data.118.txt ---
+SIMULATED ANNEALING cool option cmax: 30080.666666666668
+SIMULATED ANNEALING iter option cmax: 29739.666666666668
 Order compatibility: False
 --- data.022.txt ---
-SIMULATED ANNEALING cool option cmax: 2270.3333333333335
-SIMULATED ANNEALING iter option cmax: 2536.3333333333335
+SIMULATED ANNEALING cool option cmax: 2297.6666666666665
+SIMULATED ANNEALING iter option cmax: 2249.3333333333335
+Order compatibility: False
+--- data.072.txt ---
+SIMULATED ANNEALING cool option cmax: 6181.333333333333
+SIMULATED ANNEALING iter option cmax: 5967.0
+Order compatibility: False
+--- data.074.txt ---
+SIMULATED ANNEALING cool option cmax: 6575.0
+SIMULATED ANNEALING iter option cmax: 6472.0
+Order compatibility: False
+--- data.105.txt ---
+SIMULATED ANNEALING cool option cmax: 13026.333333333334
+SIMULATED ANNEALING iter option cmax: 12888.666666666666
+Order compatibility: False
+--- data.079.txt ---
+SIMULATED ANNEALING cool option cmax: 6350.333333333333
+SIMULATED ANNEALING iter option cmax: 6310.0
+Order compatibility: False
+--- data.085.txt ---
+SIMULATED ANNEALING cool option cmax: 7361.666666666667
+SIMULATED ANNEALING iter option cmax: 7269.333333333333
 Order compatibility: False
 --- data.013.txt ---
-SIMULATED ANNEALING cool option cmax: 1640.3333333333333
-SIMULATED ANNEALING iter option cmax: 1908.3333333333333
+SIMULATED ANNEALING cool option cmax: 1678.0
+SIMULATED ANNEALING iter option cmax: 1601.0
 Order compatibility: False
---- data.068.txt ---
-SIMULATED ANNEALING cool option cmax: 5372.333333333333
-SIMULATED ANNEALING iter option cmax: 5760.666666666667
+--- data.014.txt ---
+SIMULATED ANNEALING cool option cmax: 1545.3333333333333
+SIMULATED ANNEALING iter option cmax: 1485.6666666666667
 Order compatibility: False
---- data.025.txt ---
-SIMULATED ANNEALING cool option cmax: 2464.3333333333335
-SIMULATED ANNEALING iter option cmax: 2769.0
+--- data.006.txt ---
+SIMULATED ANNEALING cool option cmax: 1317.3333333333333
+SIMULATED ANNEALING iter option cmax: 1266.0
+Order compatibility: False
+--- data.043.txt ---
+SIMULATED ANNEALING cool option cmax: 3336.0
+SIMULATED ANNEALING iter option cmax: 3271.0
+Order compatibility: False
+--- data.004.txt ---
+SIMULATED ANNEALING cool option cmax: 1414.6666666666667
+SIMULATED ANNEALING iter option cmax: 1403.6666666666667
+Order compatibility: False
+--- data.015.txt ---
+SIMULATED ANNEALING cool option cmax: 1657.3333333333333
+SIMULATED ANNEALING iter option cmax: 1592.3333333333333
+Order compatibility: False
+--- data.088.txt ---
+SIMULATED ANNEALING cool option cmax: 7526.333333333333
+SIMULATED ANNEALING iter option cmax: 7446.666666666667
+Order compatibility: False
+--- data.021.txt ---
+SIMULATED ANNEALING cool option cmax: 2488.6666666666665
+SIMULATED ANNEALING iter option cmax: 2483.0
+Order compatibility: False
+--- data.067.txt ---
+SIMULATED ANNEALING cool option cmax: 5640.0
+SIMULATED ANNEALING iter option cmax: 5453.666666666667
+Order compatibility: False
+--- data.089.txt ---
+SIMULATED ANNEALING cool option cmax: 7435.0
+SIMULATED ANNEALING iter option cmax: 7364.0
+Order compatibility: False
+--- data.029.txt ---
+SIMULATED ANNEALING cool option cmax: 2504.6666666666665
+SIMULATED ANNEALING iter option cmax: 2453.6666666666665
+Order compatibility: False
+--- data.046.txt ---
+SIMULATED ANNEALING cool option cmax: 3433.0
+SIMULATED ANNEALING iter option cmax: 3359.3333333333335
+Order compatibility: False
+--- data.028.txt ---
+SIMULATED ANNEALING cool option cmax: 2389.6666666666665
+SIMULATED ANNEALING iter option cmax: 2346.3333333333335
+Order compatibility: False
+--- data.031.txt ---
+SIMULATED ANNEALING cool option cmax: 2892.0
+SIMULATED ANNEALING iter option cmax: 2817.0
+Order compatibility: False
+--- data.099.txt ---
+SIMULATED ANNEALING cool option cmax: 11645.333333333334
+SIMULATED ANNEALING iter option cmax: 11391.333333333334
+Order compatibility: False
+--- data.101.txt ---
+SIMULATED ANNEALING cool option cmax: 12971.0
+SIMULATED ANNEALING iter option cmax: 12725.666666666666
+Order compatibility: False
+--- data.010.txt ---
+SIMULATED ANNEALING cool option cmax: 1216.6666666666667
+SIMULATED ANNEALING iter option cmax: 1181.3333333333333
+Order compatibility: False
+--- data.033.txt ---
+SIMULATED ANNEALING cool option cmax: 2813.0
+SIMULATED ANNEALING iter option cmax: 2756.3333333333335
+Order compatibility: False
+--- data.106.txt ---
+SIMULATED ANNEALING cool option cmax: 13195.666666666666
+SIMULATED ANNEALING iter option cmax: 13002.666666666666
 Order compatibility: False

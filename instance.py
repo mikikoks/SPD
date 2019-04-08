@@ -169,7 +169,7 @@ class Instance():
     def simulated_annealing_iter(self, temperature, order, max_iter, method):
         if method == 'swap':
             iter = 1
-            if iter < max_iter:
+            while iter < max_iter:
                 temp_order = order[:]
                 self.swap(temp_order)
                 temp_order_cmax = self.c_max(temp_order)
@@ -189,7 +189,7 @@ class Instance():
         
         elif method == 'insert':
             iter = 1
-            if iter < max_iter:
+            while iter < max_iter:
                 temp_order = order[:]
                 self.insert(temp_order)
                 temp_order_cmax = self.c_max(temp_order)
@@ -219,11 +219,8 @@ class Instance():
                 temp_order = order[:]
                 self.swap(temp_order)
                 temp_order_cmax = self.c_max(temp_order)
-                order_cmax = self.c_max(order)
-                if temp_order_cmax >= order_cmax:
-                    probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
-                else:
-                    continue
+                order_cmax = self.c_max(order)    
+                probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
                 temperature *= cooling
                 p_rand = random.random()
                 while p_rand == probability_of_acceptation:
@@ -238,10 +235,7 @@ class Instance():
                 self.insert(temp_order)
                 temp_order_cmax = self.c_max(temp_order)
                 order_cmax = self.c_max(order)
-                if temp_order_cmax >= order_cmax:
-                    probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
-                else:
-                    continue
+                probability_of_acceptation = math.exp((order_cmax-temp_order_cmax)/temperature)
                 temperature *= cooling
                 p_rand = random.random()
                 while p_rand == probability_of_acceptation:
