@@ -296,6 +296,50 @@ class Instance():
         print("INFO: SIMULATED ANNEALING: Optimal order for is: {}".format(self.simann_queue))
         print("INFO: SIMULATED ANNEALING: c-max value for optimal order: {}".format(self.simann_makespan))
         return order, makespan
+    
+    @staticmethod
+    def schrage_makespan(tasks):
+        M=0
+        cmax = 0
+        for task in tasks:
+            M = max(M, task[0]) + task[1]
+            cmax = max(cmax, M + task[2])
+        return cmax
+
+    @staticmethod
+    def handle_schrage_r(tasks):
+        r = []
+        for task in tasks:
+            r.append(task[0])
+        return r
+
+    @staticmethod
+    def handle_schrage_q(tasks):
+        q = []
+        for task in tasks:
+            q.append(task[2])
+        return q
+   
+    def schrage(self):
+        σ = []
+        sorted_tasks = []
+        unsorted_tasks = self.tasks
+        t = 0
+        j = None
+
+        while sorted_tasks or unsorted_tasks:
+            while unsorted_tasks and (min(self.handle_schrage_r(unsorted_tasks)) <= t):
+                tmp_list = self.handle_schrage_r(unsorted_tasks)
+                j = tmp_list.index(min(tmp_list))
+                sorted_tasks.append(unsorted_tasks.pop(j))
+            if not sorted_tasks:
+                t = min(self.handle_schrage_r(unsorted_tasks))
+            else:
+                q = self.handle_schrage_q(sorted_tasks)
+                j = q.index(max(q))
+                σ.append(sorted_tasks.pop(j))
+                t += σ[-1][1]
+        return σ
 
     def save_results(self, filename, algorithm, json_to_write):
         data = {}

@@ -27,3 +27,17 @@ class DataParser():
             order.append(int(key)+1)
         return jobs, machines, tasks, order
 
+    def parse_schrage(self):
+        if not os.path.isfile(self.filename):
+            print("ERROR: File not found")
+            sys.exit(1)
+        with open(self.filename) as f:
+            print("INFO: Started parsing file {}".format(self.filename))
+            first_line = f.readline()
+            jobs, columns = (int(s) for s in first_line.split() if s.isdigit())
+            list_of_tasks = []
+            for line in f:
+                n = list(int(s) for s in line.split() if s.isdigit())
+                list_of_tasks.append(n)
+        tasks = list_of_tasks
+        return jobs, columns, tasks
