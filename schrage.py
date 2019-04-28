@@ -10,7 +10,7 @@ for file in files:
     jobs, columns, tasks = data_parser.parse_schrage()
 
     instance = Instance('Schrage', columns, jobs, tasks, [])
-    σ = instance.schrage()
-    makespan = instance.schrage_makespan(σ)
+    order = instance.schrage()
+    makespan = instance.schrage_makespan(order)
 
     print("INFO: Makespan for {}: {}".format(file, makespan))

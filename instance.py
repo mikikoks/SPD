@@ -321,10 +321,10 @@ class Instance():
         return q
    
     def schrage(self):
-        σ = []
+        order = []
         sorted_tasks = []
         unsorted_tasks = self.tasks
-        t = 0
+        t = min(self.handle_schrage_r(unsorted_tasks))
         j = None
 
         while sorted_tasks or unsorted_tasks:
@@ -337,9 +337,9 @@ class Instance():
             else:
                 q = self.handle_schrage_q(sorted_tasks)
                 j = q.index(max(q))
-                σ.append(sorted_tasks.pop(j))
-                t += σ[-1][1]
-        return σ
+                order.append(sorted_tasks.pop(j))
+                t += order[-1][1]
+        return order
 
     def save_results(self, filename, algorithm, json_to_write):
         data = {}
