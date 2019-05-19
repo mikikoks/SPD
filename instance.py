@@ -3,7 +3,6 @@ from operator import itemgetter
 import json
 import random
 import math
-import sys
 
 class Instance():
 
@@ -321,14 +320,13 @@ class Instance():
             q.append(task[2])
         return q
    
-    def schrage(self, tasks):
+    def schrage(self, unsorted_tasks): #tu dalem zmiane
         order = []
         sorted_tasks = []
-        unsorted_tasks = tasks[:]
-        copy = unsorted_tasks[:]
-        indexes_order = []
+        #unsorted_tasks = self.tasks[:]
         t = min(self.handle_schrage_r(unsorted_tasks))
         j = None
+
         while sorted_tasks or unsorted_tasks:
             while unsorted_tasks and (min(self.handle_schrage_r(unsorted_tasks)) <= t):
                 tmp_list = self.handle_schrage_r(unsorted_tasks)
@@ -341,18 +339,15 @@ class Instance():
                 j = q.index(max(q))
                 order.append(sorted_tasks.pop(j))
                 t += order[-1][1]
-        for item in order:
-            if item in copy:
-                indexes_order.append(copy.index(item))
-        return order, indexes_order
+        return order
 
-    def schrage_ptmn(self, tasks):
+    def schrage_ptmn(self, unsorted_tasks):
         sorted_tasks = []
-        unsorted_tasks = tasks[:]
+        #unsorted_tasks = self.tasks[:]
         cmax = 0
         t = 0
         j = None
-        l= [0, 0, 0]
+        l = [0, 0, 0]
         while sorted_tasks or unsorted_tasks:
             while unsorted_tasks and (min(self.handle_schrage_r(unsorted_tasks)) <= t):
                 tmp_list = self.handle_schrage_r(unsorted_tasks)
@@ -375,72 +370,90 @@ class Instance():
         return cmax
 
     @staticmethod
-    def carlier_b(U, pi, tasks):
-        p = 0
-        for i in pi:
-            p = max(p, tasks[i][0]) + tasks[i][1]
-            if U == p + tasks[i][2]:
-                j = i
-        return j
+    def handle_c(tasks):
+        C = 0
+        for task in tasks:
+            C = max(C, task[0]) + task[1]
+        return C
+
     
-    @staticmethod
-    def carlier_a(U, pi, tasks, b):
-        q = tasks[b][2]
-        ind_b = pi.index(b)
-        for i in pi:
-            p = 0
-            ind = pi.index(i)
-            for a in range(ind, ind_b+1):
-                p += tasks[pi[a]][1]
-            if U == tasks[i][0]+p+q:
-                return i
-    
-    @staticmethod
-    def carlier_c(pi, tasks, a, b):
-        j = 0
-        a = pi.index(a)
-        b = pi.index(b)
-        for i in range(a, b+1):
-            if tasks[pi[i]][2] < tasks[pi[b]][2]:
-                j = pi[i]
-        if j:
-            return j
+    def find_b(self,tasks):
+        b = -1
+        order_schrage = self.schrage(tasks[:])
+        cmax = self.schrage_makespan(order_schrage)
+        reverse_tasks = order_schrage[::-1]
+        for task in reverse_tasks:
+            index_of_task = order_schrage.index(task)
+            if cmax == self.handle_c(order_schrage[:index_of_task+1]) + task[2]: #przez te linijke to gowno nie dziala, bo ten warunek nigdy sie nie spelnia
+                b = index_of_task
+                break
+        return b
+
+    def find_a(self,tasks):
+        order_schrage = self.schrage(tasks[:])
+        cmax = self.schrage_makespan(order_schrage)
+        a = -1
+        b = self.find_b(tasks)
+        for index in range(b+1):
+            sum = 0
+            for task in order_schrage[index:b+1]:
+                sum += task[1]
+            if cmax == order_schrage[index][0] + sum + order_schrage[b][2]:
+                a = index
+                break
+        return a
+
+    def find_c(self, tasks):
+        b = self.find_b(tasks)
+        a = self.find_a(tasks)
+        c = -1
+        block = tasks[a:b+1]
+        for task in block[::-1]:
+            if task[2] < tasks[b][2]:
+                c = tasks.index(task)
+                break
+        return c
+
+    def carlier(self, ub, tasks, opt_order):
+        a = 0
+        b = 0
+        c = -1
+        lb = 0
+        p_sum = 0
+        order_schrage = self.schrage(tasks[:])
+        u = self.schrage_makespan(order_schrage)
+        if u < ub:
+            ub = u
+            opt_order = order_schrage[:]
+        print("UB: {}".format(ub))
+        b = self.find_b(tasks)
+        a = self.find_a(tasks)
+        c = self.find_c(order_schrage)
+        print("b: {}, a: {}, c: {}".format(b,a,c))
+        if c == -1:
+            return ub
+        K = order_schrage[c+1:b+1]
+        r_min = min(self.handle_schrage_r(K))
+        for task in K:
+            p_sum += task[1]
+        q_min = min(self.handle_schrage_q(K))
+        r_temp = order_schrage[c][0]
+        order_schrage[c][0] = max(r_temp, r_min + p_sum)
+        #h_K = r_min + p_sum + q_min
+        lb = self.schrage_ptmn(order_schrage[:])
+        if lb < ub:
+            ub = self.carlier(ub, order_schrage[:], opt_order)
         else:
-            return []
-    
-    def carlier(self, pi, tasks):
-        UB = 100000000
-        order, tmp_pi = self.schrage(tasks)
-        U = self.schrage_makespan(order)
-        if U < UB:
-            UB = U
-            pi = tmp_pi
-        b = self.carlier_b(U, pi, tasks)
-        a = self.carlier_a(U, pi, tasks, b)
-        c = self.carlier_c(pi, tasks, a, b)
-        print("A, B, C: " + str(a) + ' ' + str(b) + ' ' + str(c))
-        print("UB: " + str(UB))
-        if c == []:
-            return UB
-        K = [i for i in pi[pi.index(c)+1:pi.index(b)+1]]
-        rk = min([tasks[i][0] for i in K])
-        qk = min([tasks[i][2] for i in K])
-        pk = sum(tasks[i][1] for i in K)
-        hK = rk+pk+qk
-
-        tasks[c][0] = max(tasks[c][0], rk+pk)
-        LB = self.schrage_ptmn(tasks)
-        hKc = min(rk, tasks[c][0]) + pk + tasks[c][1] + min(qk, tasks[c][2])
-        LB = max(hK, hKc, LB)
-        if LB < UB:
-            self.carlier(pi, tasks)
-
-        tasks[c][2] = max(tasks[c][2], qk + pk)
-        LB = self.schrage_ptmn(tasks)
-        hKc = min(rk, tasks[c][0]) + pk + tasks[c][1] + min(qk, tasks[c][2])
-        LB = max(hK, hKc, LB)
-        if LB < UB:
-            self.carlier(pi, tasks)
+            return ub
+        #order_schrage[c][0] = r_temp
+        q_temp = order_schrage[c][2]
+        order_schrage[c][2] = max(q_temp, p_sum + q_min)
+        lb = self.schrage_ptmn(order_schrage[:])
+        if lb < ub:
+            ub = self.carlier(ub, order_schrage[:], opt_order)
+        else:
+            return ub
+        #order_schrage[c][0] = r_temp
 
     def save_results(self, filename, algorithm, json_to_write):
         data = {}
