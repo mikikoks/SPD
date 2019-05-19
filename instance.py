@@ -3,6 +3,7 @@ from operator import itemgetter
 import json
 import random
 import math
+import sys
 
 class Instance():
 
@@ -320,13 +321,14 @@ class Instance():
             q.append(task[2])
         return q
    
-    def schrage(self):
+    def schrage(self, tasks):
         order = []
         sorted_tasks = []
-        unsorted_tasks = self.tasks[:]
+        unsorted_tasks = tasks[:]
+        copy = unsorted_tasks[:]
+        indexes_order = []
         t = min(self.handle_schrage_r(unsorted_tasks))
         j = None
-
         while sorted_tasks or unsorted_tasks:
             while unsorted_tasks and (min(self.handle_schrage_r(unsorted_tasks)) <= t):
                 tmp_list = self.handle_schrage_r(unsorted_tasks)
@@ -339,11 +341,14 @@ class Instance():
                 j = q.index(max(q))
                 order.append(sorted_tasks.pop(j))
                 t += order[-1][1]
-        return order
+        for item in order:
+            if item in copy:
+                indexes_order.append(copy.index(item))
+        return order, indexes_order
 
-    def schrage_ptmn(self):
+    def schrage_ptmn(self, tasks):
         sorted_tasks = []
-        unsorted_tasks = self.tasks[:]
+        unsorted_tasks = tasks[:]
         cmax = 0
         t = 0
         j = None
@@ -368,6 +373,74 @@ class Instance():
                 t += task[1]
                 cmax = max(cmax, t + task[2])
         return cmax
+
+    @staticmethod
+    def carlier_b(U, pi, tasks):
+        p = 0
+        for i in pi:
+            p = max(p, tasks[i][0]) + tasks[i][1]
+            if U == p + tasks[i][2]:
+                j = i
+        return j
+    
+    @staticmethod
+    def carlier_a(U, pi, tasks, b):
+        q = tasks[b][2]
+        ind_b = pi.index(b)
+        for i in pi:
+            p = 0
+            ind = pi.index(i)
+            for a in range(ind, ind_b+1):
+                p += tasks[pi[a]][1]
+            if U == tasks[i][0]+p+q:
+                return i
+    
+    @staticmethod
+    def carlier_c(pi, tasks, a, b):
+        j = 0
+        a = pi.index(a)
+        b = pi.index(b)
+        for i in range(a, b+1):
+            if tasks[pi[i]][2] < tasks[pi[b]][2]:
+                j = pi[i]
+        if j:
+            return j
+        else:
+            return []
+    
+    def carlier(self, pi, tasks):
+        UB = 100000000
+        order, tmp_pi = self.schrage(tasks)
+        U = self.schrage_makespan(order)
+        if U < UB:
+            UB = U
+            pi = tmp_pi
+        b = self.carlier_b(U, pi, tasks)
+        a = self.carlier_a(U, pi, tasks, b)
+        c = self.carlier_c(pi, tasks, a, b)
+        print("A, B, C: " + str(a) + ' ' + str(b) + ' ' + str(c))
+        print("UB: " + str(UB))
+        if c == []:
+            return UB
+        K = [i for i in pi[pi.index(c)+1:pi.index(b)+1]]
+        rk = min([tasks[i][0] for i in K])
+        qk = min([tasks[i][2] for i in K])
+        pk = sum(tasks[i][1] for i in K)
+        hK = rk+pk+qk
+
+        tasks[c][0] = max(tasks[c][0], rk+pk)
+        LB = self.schrage_ptmn(tasks)
+        hKc = min(rk, tasks[c][0]) + pk + tasks[c][1] + min(qk, tasks[c][2])
+        LB = max(hK, hKc, LB)
+        if LB < UB:
+            self.carlier(pi, tasks)
+
+        tasks[c][2] = max(tasks[c][2], qk + pk)
+        LB = self.schrage_ptmn(tasks)
+        hKc = min(rk, tasks[c][0]) + pk + tasks[c][1] + min(qk, tasks[c][2])
+        LB = max(hK, hKc, LB)
+        if LB < UB:
+            self.carlier(pi, tasks)
 
     def save_results(self, filename, algorithm, json_to_write):
         data = {}
