@@ -16,4 +16,4 @@ for file in files:
     print("INFO: CMAX for {} using SchragePtmn: {}".format(file,cmax))
     opt_order = []
     u = instance.carlier(100000000,tasks[:], opt_order)
-    print("kochany carlier obliczyl: {}".format(u))
+    print("INFO: >>>>>>>>>>>CMAX for {} using carlier: {}".format(file,u))

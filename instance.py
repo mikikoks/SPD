@@ -384,7 +384,7 @@ class Instance():
         reverse_tasks = order_schrage[::-1]
         for task in reverse_tasks:
             index_of_task = order_schrage.index(task)
-            if cmax == self.handle_c(order_schrage[:index_of_task+1]) + task[2]: #przez te linijke to gowno nie dziala, bo ten warunek nigdy sie nie spelnia
+            if cmax == self.handle_c(order_schrage[:index_of_task+1]) + task[2]:
                 b = index_of_task
                 break
         return b
@@ -415,8 +415,8 @@ class Instance():
         return c
 
     def carlier(self, ub, tasks, opt_order):
-        a = 0
-        b = 0
+        a = -1
+        b = -1
         c = -1
         lb = 0
         p_sum = 0
@@ -437,23 +437,28 @@ class Instance():
         for task in K:
             p_sum += task[1]
         q_min = min(self.handle_schrage_q(K))
+        hK = r_min + p_sum + q_min
         r_temp = order_schrage[c][0]
-        order_schrage[c][0] = max(r_temp, r_min + p_sum)
+        order_schrage[c][0] = max(r_temp, r_min + p_sum) #zmieniamy r
         lb = self.schrage_ptmn(order_schrage[:])
+        hKc = min(r_min, order_schrage[c][0]) + p_sum + order_schrage[c][1] + min(q_min, order_schrage[c][2])
+        lb = max(hK, hKc, lb)
+        #print("LB: {}".format(lb))
         if lb < ub:
             ub = min(ub, self.carlier(ub, order_schrage[:], opt_order))
-        #else:
-        #    return ub
-        order_schrage[c][0] = r_temp
+        order_schrage[c][0] = r_temp #przywracamy r
         q_temp = order_schrage[c][2]
-        order_schrage[c][2] = max(q_temp, p_sum + q_min)
+        order_schrage[c][2] = max(q_temp, p_sum + q_min)  #zmieniamy q
         lb = self.schrage_ptmn(order_schrage[:])
+        hKc = min(r_min, order_schrage[c][0]) + p_sum + order_schrage[c][1] + min(q_min, order_schrage[c][2])
+        lb = max(hK, hKc, lb)
+        #print("LB: {}".format(lb))
         if lb < ub:
             ub = min(ub, self.carlier(ub, order_schrage[:], opt_order))
             return ub
         else:
             return ub
-        order_schrage[c][2] = q_temp
+        order_schrage[c][2] = q_temp #przywracamy q
 
     def save_results(self, filename, algorithm, json_to_write):
         data = {}
