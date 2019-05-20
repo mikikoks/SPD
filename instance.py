@@ -425,11 +425,11 @@ class Instance():
         if u < ub:
             ub = u
             opt_order = order_schrage[:]
-        print("UB: {}".format(ub))
+        #print("UB: {}".format(ub))
         b = self.find_b(tasks)
         a = self.find_a(tasks)
         c = self.find_c(order_schrage)
-        print("b: {}, a: {}, c: {}".format(b,a,c))
+        #print("b: {}, a: {}, c: {}".format(b,a,c))
         if c == -1:
             return ub
         K = order_schrage[c+1:b+1]
@@ -439,21 +439,21 @@ class Instance():
         q_min = min(self.handle_schrage_q(K))
         r_temp = order_schrage[c][0]
         order_schrage[c][0] = max(r_temp, r_min + p_sum)
-        #h_K = r_min + p_sum + q_min
         lb = self.schrage_ptmn(order_schrage[:])
         if lb < ub:
-            ub = self.carlier(ub, order_schrage[:], opt_order)
-        else:
-            return ub
-        #order_schrage[c][0] = r_temp
+            ub = min(ub, self.carlier(ub, order_schrage[:], opt_order))
+        #else:
+        #    return ub
+        order_schrage[c][0] = r_temp
         q_temp = order_schrage[c][2]
         order_schrage[c][2] = max(q_temp, p_sum + q_min)
         lb = self.schrage_ptmn(order_schrage[:])
         if lb < ub:
-            ub = self.carlier(ub, order_schrage[:], opt_order)
+            ub = min(ub, self.carlier(ub, order_schrage[:], opt_order))
+            return ub
         else:
             return ub
-        #order_schrage[c][0] = r_temp
+        order_schrage[c][2] = q_temp
 
     def save_results(self, filename, algorithm, json_to_write):
         data = {}
